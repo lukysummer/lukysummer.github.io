@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>3D Room Exhibition | Codrops</title>
+		<meta name="description" content="An experimental 3D room template that aims to show exhibition details in an interesting way" />
+		<meta name="keywords" content="3d, room, exhibition, gallery, perspective, animation, web design, template" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo_copy.css" />
+		<script>document.documentElement.className = 'js';</script>
+	</head>
+	<body>
+		
+		<svg class="hidden">653
+			<symbol id="icon-cross" viewBox="0 0 24 24">
+				<title>cross</title>
+				<path d="M13.4,12l7.8,7.8l-1.4,1.4l-7.8-7.8l-7.8,7.8l-1.4-1.4l7.8-7.8L2.7,4.2l1.4-1.4l7.8,7.8l7.8-7.8l1.4,1.4L13.4,12z"/>
+			</symbol>
+			<symbol id="icon-info" viewBox="0 0 20 20">
+				<title>info</title>
+				<circle style="fill:#fff" cx="10" cy="10" r="9.1"/>
+				<path d="M10,0C4.5,0,0,4.5,0,10s4.5,10,10,10s10-4.5,10-10S15.5,0,10,0z M10,18.6c-4.7,0-8.6-3.9-8.6-8.6S5.3,1.4,10,1.4s8.6,3.9,8.6,8.6S14.7,18.6,10,18.6z M10.7,5C10.9,5.2,11,5.5,11,5.7s-0.1,0.5-0.3,0.7c-0.2,0.2-0.4,0.3-0.7,0.3c-0.3,0-0.5-0.1-0.7-0.3C9.1,6.2,9,6,9,5.7S9.1,5.2,9.3,5C9.5,4.8,9.7,4.7,10,4.7C10.3,4.7,10.5,4.8,10.7,5z M9.3,8.3h1.4v7.2H9.3V8.3z"/>
+			</symbol>
+		</svg>
+	
+		
+		
+		<div class="container">
+			<div class="scroller">
+				<div class="room room--current">
+					
+					<div class="room__side room__side--back" title = "Ｓｈｈｈ．．．　ｅｌｉｏ　ｉｓ　ｄｒｅａｍｉｎｇ">
+						<img class="room__img_back" src="images/elio_sleep.gif" alt="Some image"/>
+						
+					</div>
+					
+					<div class="room__side room__side--left">
+					    <img class="room__img_left" src="images/bus.gif" alt="Some image"/>
+						<img class="room__img_left" src="images/bike.gif" alt="Some image"/>
+						<img class="room__img_left" src="images/kiss.gif" alt="Some image"/>
+						<img class="room__img_left" src="images/dance.gif" alt="Some image"/>
+						<img class="room__img_left" src="images/handshake.gif" alt="Some image"/>								
+					</div>
+					
+					<div class="room__side room__side--right">
+						<img class="room__img_right" src="images/car.gif" alt="Some image"/>
+						<img class="room__img_right" src="images/pure.gif" alt="Some image"/>
+						<img class="room__img_right" src="images/waterfall.gif" alt="Some image"/>
+						<img class="room__img_right" src="images/ciao.gif" alt="Some image"/>
+						<img class="room__img_right" src="images/train.gif" alt="Some image"/>						
+					</div>
+					
+					<div class="room__side room__side--bottom">
+						
+					</div>
+					
+					<div class="room__side room__side--top"></div>
+				</div><!-- /room -->
+			</div>
+		</div><!-- /container -->
+		
+		<div class="overlay overlay--loader overlay--active">
+			<div class="loader">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+		
+		<embed id = "gideon" src="phonecall.mp3" autostart="true">
+		
+		<script src="js/anime.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/elio.js"></script>
+	</body>
+</html>

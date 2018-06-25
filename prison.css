@@ -1,0 +1,732 @@
+#prison_page {
+	z-index : 0;
+	position : absolute;
+	background: black;
+	width : 100%;
+	height : 100%;
+	text-align : center;
+	transition : 0.5s;
+	transform-origin : 0;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104558), auto;
+	overflow: hidden;
+}
+
+#credit {
+	position: absolute;
+	top: 88.5%; left:98.5%;
+	background: black;
+	color: grey;
+	font-size: 7.5pt;
+	border: 0.5px solid darkgreen;	
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
+	padding: 1.1px;
+}
+
+#title {
+	position:absolute;
+	top:0%; left:0.5%;
+	font-size: 13.8pt;
+	color:skyblue;
+}
+
+#author {
+	font-size: 8.6pt;
+}
+
+#poets {
+	position: absolute;
+	top: 83%; left:92.8%;
+	color: darkgreen;
+	font-size: 7pt;
+	text-align: right;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104558), auto;
+}
+
+.prison1, .prison2, .prison3, .prison4, .prison5, .prison6,.prison7, .prison8, .prison9 {
+	display: block;
+	position:relative;
+	width: 150px;
+	height: 210px;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
+	transition: transform 3s;
+}
+
+@keyframes fadein {
+  0% {
+    opacity:1;
+  }
+  50% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@keyframes full {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+
+/*  DOOR #1  */
+.door1 {
+	position:absolute;	
+	top: 0%;
+    left: 11.2%;
+}
+.prison1 {
+	transition: transform 3s;
+	-webkit-animation: fadein 5s forwards;
+	animation-iteration-count: 1000000000;
+	transform: scale3d(0.95,1,1);
+}
+.river, .dreams{
+	position:absolute;
+	opacity:0;
+	color: #2e2ed1;
+}
+.river {
+	font-size: 13.4pt;
+	top: 15%; left: 20%;
+}
+.dreams {
+	font-size: 8.6pt;
+	top: 67%; left: 10%;
+}
+.door1:hover .prison1 {
+	transform: scale3d(0.95,1,1) translate3d(-150px,0,0);
+	transition: transform 3s;
+	-webkit-animation: full 2s forwards;
+	animation-iteration-count: 1000000000;
+}
+.door1:hover .river {
+	-webkit-animation: flash 5s forwards;
+	animation-iteration-count: 1000000000;
+	-webkit-animation-delay: 0.3s;
+}
+.door1:hover .dreams {
+	-webkit-animation: flash 6s forwards;
+	animation-iteration-count: 1000000000;
+	-webkit-animation-delay: 0.9s;
+}
+/*  END OF DOOR #1  */
+
+
+
+/*  DOOR #2  */
+.door2 {
+
+	position:absolute;	
+	top: 0%;
+    left: 44.35%;
+}
+.prison2 {	
+	transform: scale3d(0.95,1,1);
+	transition: transform 3s;
+	-webkit-animation: fadein 5s reverse;
+	animation-iteration-count: 1000000000;
+}
+.of, .letting, .gogh {
+	position:absolute;
+	opacity:0;
+	color: gold;
+}
+.of {
+	font-size: 8pt;
+	top: 5%; left: 10%;
+}
+.letting {
+	font-size: 8pt;
+	top: 54%; left: 30%;
+	transform: rotate3d(0,0,1,-90deg);
+}
+.gogh {
+	font-size: 8.6pt;
+	top: 80%; left: 50%;
+}
+.door2:hover .prison2 {
+	transform: scale3d(0.95,1,1) translate3d(-150px,0,0);
+	transition: transform 3s;
+	-webkit-animation: full 2s forwards;
+	animation-iteration-count: 1000000000;
+}
+.door2:hover .letting {
+	-webkit-animation: flash 4s forwards;
+	animation-iteration-count: 1000000000;
+	-webkit-animation-delay: 0.3s;
+}
+.door2:hover .of {
+	-webkit-animation: flash 6s forwards;
+	animation-iteration-count: 1000000000;
+	-webkit-animation-delay: 1.1s;
+}
+.door2:hover .gogh {
+	-webkit-animation: flash 4s forwards;
+	animation-iteration-count: 1000000000;
+	-webkit-animation-delay: 0.9s;
+}
+/*  END OF DOOR #2  */
+
+
+
+/*  DOOR #3  */
+.door3 {
+	position:absolute;	
+	top: 0%;
+    left: 77.66667%;
+}
+.prison3 {	
+	transform: scale3d(0.94,0.98,1);
+	transition: transform 3s;
+	-webkit-animation: fadein 5s forwards;
+	animation-iteration-count: 1000000000;
+}
+.to, .be, .human {
+	position:absolute;
+	opacity:0;
+	color: olivedrab;
+}
+.to {
+	font-size: 8pt;
+	top: 25%; left: 25%;
+}
+.be {
+	font-size: 8pt;
+	top: 40%; left: 26%;
+}
+.human {
+	font-size: 13.8pt;
+	top: 60%; left: 22%;
+}
+.door3:hover .prison3 {
+	transform: scale3d(0.94,0.98,1) translate3d(-150px,0,0);
+	transition: transform 3s;
+	-webkit-animation: full 2s forwards;
+	animation-iteration-count: 1000000000;
+}
+.door3:hover .to {
+	-webkit-animation: flash 4s forwards;
+	animation-iteration-count: 1000000000;
+	-webkit-animation-delay: 0.8s;
+}
+.door3:hover .be {
+	-webkit-animation: flash 4s forwards;
+	animation-iteration-count: 1000000000;
+	-webkit-animation-delay: 1.2s;
+}
+.door3:hover .human {
+	-webkit-animation: flash 6s forwards;
+	animation-iteration-count: 1000000000;
+	-webkit-animation-delay: 1.7s;
+}
+/*  END OF DOOR #3  */
+
+
+
+/*  DOOR #4  */
+.door4 {
+	position:absolute;	
+	top: 33.33333%;
+    left: 11.2%;
+}
+.prison4 {
+	transform: scale3d(0.95,1,1);
+	transition: transform 3s;
+	-webkit-animation: fadein 5s reverse;
+	-webkit-animation-delay: 0.88s;
+	animation-iteration-count: 1000000000;
+}
+.so, .beaut{
+	position:absolute;
+	opacity:0;
+	color: #ff6600;
+}
+.so {
+	font-size: 8.6pt;
+	top: 25%; left: 10%;
+}
+.beaut {
+	font-size: 8.6pt;
+	top: 52%; left: 25%;
+	/*transform: rotate3d(0,0,1,-180deg);*/
+}
+.door4:hover .prison4 {
+	transform: scale3d(0.95,1,1) translate3d(-150px,0,0);
+	transition: transform 3s;
+	-webkit-animation: full 2s forwards;
+	animation-iteration-count: 1000000000;
+}
+.door4:hover .so {
+	-webkit-animation: flash 5s forwards;
+	animation-iteration-count: 1000000000;
+	-webkit-animation-delay: 0.3s;
+}
+.door4:hover .beaut {
+	-webkit-animation: flash 6s forwards;
+	animation-iteration-count: 1000000000;
+	-webkit-animation-delay: 0.9s;
+}
+/*  END OF DOOR #4  */
+
+
+
+/*  DOOR #5  */
+.door5 {
+	position:absolute;	
+	top: 33.33333%;
+    left: 44.33333%
+}
+.prison5 {	
+	transform: scale3d(0.95,1,1);
+	transition: transform 3s;
+	-webkit-animation: fadein 5s forwards;
+	-webkit-animation-delay: 1s;
+	animation-iteration-count: 1000000000;
+}
+.but, .horr, .sad, .too {
+	position:absolute;
+	opacity:0;
+	color: #4343d6;
+}
+.but {
+	font-size: 8pt;
+	top: 25%; left: 10%;
+}
+.horr {
+	font-size: 8.6pt;
+	top: 40%; left: 15%;
+}
+.sad {
+	font-size: 13.8pt;
+	top: 55%; left: 22%;
+}
+.too {
+	font-size: 8.6pt;
+	top: 64%; left: 85%;
+}
+.door5:hover .prison5 {
+	transform: scale3d(0.95,1,1) translate3d(-150px,0,0);
+	transition: transform 3s;
+	-webkit-animation: full 2s forwards;
+	animation-iteration-count: 1000000000;
+}
+.door5:hover .but {
+	-webkit-animation: flash 6s forwards;
+	animation-iteration-count: 1000000000;
+	-webkit-animation-delay: 0.5s;
+}
+.door5:hover .horr {
+	-webkit-animation: flash 6s forwards;
+	animation-iteration-count: 1000000000;
+	-webkit-animation-delay: 1.5s;
+}
+.door5:hover .sad {
+	-webkit-animation: flash 4s forwards;
+	animation-iteration-count: 1000000000;
+	-webkit-animation-delay: 2.1s;
+}
+.door5:hover .too {
+	-webkit-animation: flash 6s forwards;
+	animation-iteration-count: 1000000000;
+	-webkit-animation-delay: 2.5s;
+}
+/*  END OF DOOR #3  */
+
+
+/*  DOOR #6  */
+.door6 {
+	position:absolute;	
+	top: 33.33333%;
+    left: 77.7%;
+}
+.prison6 {
+	transform: scale3d(0.95,1,1);
+	transition: transform 3s;
+	-webkit-animation: fadein 5s reverse;
+	-webkit-animation-delay: 2s;
+	animation-iteration-count: 1000000000;
+}
+.wonders, .a, .poem{
+	position:absolute;
+	opacity:0;
+	color: #a446d2;
+}
+.wonders {
+	font-size: 8.6pt;
+	top: 16%; left: 10%;
+	
+}
+.a {
+	font-size: 8.6pt;
+	top: 50%; left: 50%;
+}
+.poem {
+	font-size: 13.6pt;
+	top: 60%; left: 42%;
+}
+.door6:hover .prison6 {
+	transform: scale3d(0.95,1,1) translate3d(-150px,0,0);
+	transition: transform 3s;
+	-webkit-animation: full 2s forwards;
+	animation-iteration-count: 1000000000;
+}
+.door6:hover .wonders {
+	-webkit-animation: flash 6s forwards;
+	animation-iteration-count: 1000000000;
+	-webkit-animation-delay: 0.3s;
+}
+.door6:hover .a {
+	-webkit-animation: flash 4s forwards;
+	animation-iteration-count: 1000000000;
+	-webkit-animation-delay: 0.8s;
+}
+.door6:hover .poem {
+	-webkit-animation: flash 6s forwards;
+	animation-iteration-count: 1000000000;
+	-webkit-animation-delay: 1.3s;
+}
+/*  END OF DOOR #6  */
+
+
+/*  DOOR #7  */
+.door7 {
+	position:absolute;	
+	top: 66.66667%;
+    left: 11.2%;
+}
+.prison7 {
+	transform: scale3d(0.95,1,1);
+	transition: transform 3s;
+	-webkit-animation: fadein 5s forwards;
+	-webkit-animation-delay: 3s;
+	animation-iteration-count: 1000000000;
+}
+.doi, .believe, .in{
+	position:absolute;
+	opacity:0;
+	color: darkslategrey;
+}
+.doi {
+	font-size: 8.6pt;
+	top: 8%; left: 33%;
+}
+.believe {
+	font-size: 10.5pt;
+	top: 36%; left: 30%;
+}
+.in {
+	font-size: 8.6pt;
+	top: 61.5%; left: 81%;
+}
+.door7:hover .prison7 {
+	transform: scale3d(0.95,1,1) translate3d(-150px,0,0);
+	transition: transform 3s;
+	-webkit-animation: full 2s forwards;
+	animation-iteration-count: 1000000000;
+}
+.door7:hover .doi {
+	-webkit-animation: flash 4s forwards;
+	animation-iteration-count: 1000000000;
+	-webkit-animation-delay: 0.4s;
+}
+.door7:hover .believe {
+	-webkit-animation: flash 7s forwards;
+	animation-iteration-count: 1000000000;
+	-webkit-animation-delay: 1s;
+}
+.door7:hover .in {
+	-webkit-animation: flash 4s forwards;
+	animation-iteration-count: 1000000000;
+	-webkit-animation-delay: 1.5s;
+}
+/*  END OF DOOR #7  */
+
+
+/*  DOOR #8  */
+.door8 {
+	position:absolute;	
+	top: 66.66667%;
+    left: 44.35%;
+}
+.prison8 {
+	transform: scale3d(0.95,1,1);
+	transition: transform 3s;
+	-webkit-animation: fadein 5s reverse;
+	-webkit-animation-delay: 1.5s;
+	animation-iteration-count: 1000000000;
+}
+.the, .existence {
+	position:absolute;
+	opacity:0;
+	color: #b30000;
+}
+.the {
+	font-size: 8.6pt;
+	top: 22%; left: 50%
+}
+.existence {
+	font-size: 13.4pt;
+	top: 50%; left: 25%;
+}
+.door8:hover .prison8 {
+	transform: scale3d(0.95, 1,1) translate3d(-150px,0,0);
+	transition: transform 3s;
+	-webkit-animation: full 2s forwards;
+	animation-iteration-count: 1000000000;
+}
+.door8:hover .the {
+	-webkit-animation: flash 4s forwards;
+	animation-iteration-count: 1000000000;
+	-webkit-animation-delay: 0.8s;
+}
+.door8:hover .existence {
+	-webkit-animation: flash 6s forwards;
+	animation-iteration-count: 1000000000;
+	-webkit-animation-delay: 1.4s;
+}
+/*  END OF DOOR #8  */
+
+
+/*  DOOR #9  */
+.door9 {
+	position:absolute;	
+	top: 66.66667%;
+    left: 77.66667%;
+}
+.prison9 {
+	transform: scale3d(0.95,1,1);
+	transition: transform 3s;
+	-webkit-animation: fadein 5s forwards;
+	animation-iteration-count: 1000000000;
+}
+.of2, .a2, .poet {
+	position:absolute;
+	color: darkgreen;
+	opacity:0;
+}
+.of2 {
+	font-size: 8.6pt;
+	top: 20%; left: 20%;
+}
+.a2 {
+	font-size: 8.6pt;
+	top: 40%; left: 22%;
+}
+.poet {
+	font-size: 13.7pt;
+	top: 55%; left: 40%;
+}
+.door9:hover .prison9 {
+	transform: scale3d(0.95,1,1) translate3d(-150px,0,0);
+	transition: transform 3s;
+	-webkit-animation: full 2s forwards;
+	animation-iteration-count: 1000000000;
+}
+.door9:hover .of2 {
+	-webkit-animation: flash 6s forwards;
+	animation-iteration-count: 1000000000;
+	-webkit-animation-delay: 0.5s;
+}
+.door9:hover .a2 {
+	-webkit-animation: flash 6s forwards;
+	animation-iteration-count: 1000000000;
+	-webkit-animation-delay: 1.1s;
+}
+.door9:hover .poet {
+	-webkit-animation: flash 6s forwards;
+	animation-iteration-count: 1000000000;
+	-webkit-animation-delay: 1.7s;
+}
+
+
+@keyframes flash {
+  0% {
+    opacity:0;
+  }
+  50% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+
+/*  PLANTS  */
+#plant1, #plant2, #plant3, #plant4, #plant5, #plant6, #plant7, #plant8, #plant9, #plant10, #plant11, #plant12{
+	position:absolute;
+	font-size: 5pt;
+	color: midnightblue;
+	opacity:0;
+}
+/*
+#plant2,  #plant4, #plant6,  #plant8, #plant10, #plant12{
+	position:absolute;
+	font-size: 8pt;
+	color: #800000;
+	opacity: 0;
+}*/
+
+
+
+.door1:hover #plant1, .door1:hover #plant2, .door1:hover #plant3, .door1:hover #plant4, .door1:hover #plant5, .door1:hover #plant6, .door1:hover #plant7, 
+.door1:hover #plant8, .door1:hover #plant9, .door1:hover #plant10, .door1:hover #plant11, .door1:hover #plant12, 
+.door1:hover #plant113, .door1:hover #plant114, .door1:hover #plant115, .door1:hover #plant15, .door1:hover #plant16, .door1:hover #plant18, 
+.door1:hover #plant19, .door1:hover #plant20, .door1:hover #plant21,.door1:hover #plant22, .door1:hover #plant23, .door1:hover #plant24, 
+.door1:hover #plant25, .door1:hover #plant26, .door1:hover #plant27, .door1:hover #plant28, .door1:hover #plant29, .door1:hover #plant30{
+	-webkit-animation: fadein 1s forwards;
+	animation-iteration-count: 1000000000;
+}
+
+.door1:hover #plant1{
+	-webkit-animation-delay: 1s;
+}.door1:hover #plant2{
+	-webkit-animation-delay: 1.1s;
+}.door1:hover #plant3{
+	-webkit-animation-delay: 1.2s;
+}.door1:hover #plant4{
+	-webkit-animation-delay: 1.3s;
+}.door1:hover #plant5{
+	-webkit-animation-delay: 1.4s;
+}.door1:hover #plant6{
+	-webkit-animation-delay: 1.5s;
+}.door1:hover #plant7{
+	-webkit-animation-delay: 1.6s;
+}.door1:hover #plant8{
+	-webkit-animation-delay: 1.7s;
+}.door1:hover #plant9{
+	-webkit-animation-delay: 1.8s;
+}.door1:hover #plant10{
+	-webkit-animation-delay: 1.9s;
+}.door1:hover #plant11{
+	-webkit-animation-delay: 2s;
+}.door1:hover #plant12{
+	-webkit-animation-delay: 2.1s;
+}
+
+#plant1 {
+	top: 82.9%; left: 59.3%;
+}#plant2 {
+	top: 81.6%; left: 58.6%;
+}#plant3 {
+	top: 79.8%; left: 58.16%;
+}#plant4 {
+	top: 77.6%; left: 58.13%;
+}#plant5 {
+	top: 75.1%; left: 58.32%;
+}#plant6 {
+	top: 73%; left: 58.5%;
+}#plant7 {
+	top: 70.5%; left: 59%;
+}#plant8 {
+	top: 68%; left: 59.5%;
+}#plant9 {
+	top: 66.4%; left: 60%;
+}#plant10 {
+	top: 64.2%; left: 60.6%;
+}#plant11 {
+	top: 62.4%; left: 61.5%;
+}#plant12 {
+	top: 60.7%; left: 62.4%;
+}
+
+#plant113, #plant114, #plant115, #plant15, #plant16, #plant18, #plant19, #plant20, #plant21{
+	position:absolute;
+	font-size: 5pt;
+	color: #006080;
+	opacity:0;
+}
+
+
+.door1:hover #plant15{
+	-webkit-animation-delay: 2.2s;
+}.door1:hover #plant113{
+	-webkit-animation-delay: 2.3s;
+}.door1:hover #plant114{
+	-webkit-animation-delay: 2.4s;
+}.door1:hover #plant115{
+	-webkit-animation-delay: 2.5s;
+}.door1:hover #plant20{
+	-webkit-animation-delay: 2.6s;
+}.door1:hover #plant16{
+	-webkit-animation-delay: 2.7s;
+}.door1:hover #plant21{
+	-webkit-animation-delay: 2.8s;
+}.door1:hover #plant18{
+	-webkit-animation-delay: 2.9s;
+}
+
+#plant15 {
+	top: 60%; left: 63.1%;
+}#plant113 {
+	top: 59%; left: 64%;
+}#plant114 {
+	top: 57.9%; left: 65%;
+}#plant115 {
+	top: 56.2%; left: 66.2%;
+}#plant20 {
+	top: 54.4%; left: 67.7%;
+}#plant16 {
+	top: 53.6%; left: 68.5%;
+}#plant21 {
+	top: 52.3%; left: 69%;
+}#plant18 {
+	top: 51.1%; left: 69.8%;
+}
+
+#plant22, #plant23, #plant24, #plant25, #plant26, #plant27, #plant28, #plant29, #plant30{
+	position:absolute;
+	font-size: 5pt;
+	color: grey;
+	opacity:0;
+}
+
+.door1:hover #plant22{
+	-webkit-animation-delay: 3s;
+}.door1:hover #plant23{
+	-webkit-animation-delay: 3.1s;
+}.door1:hover #plant24{
+	-webkit-animation-delay: 3.2s;
+}.door1:hover #plant25{
+	-webkit-animation-delay: 3.3s;
+}.door1:hover #plant26{
+	-webkit-animation-delay: 3.4s;
+}.door1:hover #plant27{
+	-webkit-animation-delay: 3.5s;
+}.door1:hover #plant28{
+	-webkit-animation-delay: 3.6s;
+}.door1:hover #plant29{
+	-webkit-animation-delay: 3.7s;
+}.door1:hover #plant30{
+	-webkit-animation-delay: 3.8s;
+}
+#plant22 {
+	top: 50%; left: 70.4%;
+}#plant23 {
+	top: 48.75%; left: 71%;
+}#plant24 {
+	top: 47.5%; left: 71.5%;
+}#plant25 {
+	top: 46.25%; left: 71.9%;
+}#plant26 {
+	top: 45%; left: 72.3%;
+}#plant27 {
+	top: 43.9%; left: 72.5%;
+}#plant28 {
+	top: 41.8%; left: 72.7%;
+}#plant29 {
+	top: 39.75%; left: 72.5%;
+}#plant30 {
+	top: 38.4%; left: 72%;
+}
+
+#gideon{
+	transform: translate3d(0,250000000000000000px,0) scale3d(0.1,0.1,0.1);
+	overflow: hidden;
+}

@@ -1,0 +1,121 @@
+<!-- You do not need to modify this file. -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="a1.js"></script>
+
+    <script>
+      function pr() {
+		document.getElementById("result").innerHTML = document.getElementById('lname').value;
+		document.getElementById('bef').style.display = "none";
+		document.getElementById('hi').style.display = "block";
+		document.getElementById('sliders').style.display = "block";
+      }
+	  
+	  function reply() {
+		var reply = document.getElementById('answer').value;
+		var idk1 = reply.includes("know");
+		var idk2 = reply.includes("idk");
+		var idk3 = reply.includes("?");
+		document.getElementById("location").innerHTML = document.getElementById('answer').value;
+		
+		if(idk1 || idk2 || idk3){
+			setTimeout(function() {
+			document.getElementById("whynot").style.display = 'block';
+			}, 1000);
+		}
+		else{
+			setTimeout(function() {
+			document.getElementById("why").style.display = 'block';
+			}, 1000);
+		}
+		
+		document.getElementById('ans').style.display = "none";
+		document.getElementById('where').style.display = "none";
+		document.getElementById("ans_button").style.display = "none";
+		document.getElementById("final").style.display = "block";
+		document.getElementById("final_button").style.display = "block";
+      }
+   </script>
+   
+  </head>
+  
+  <body onload="draw();" >
+	<div id="aft" style="display:none">
+		<p id="esc">ｉ　ｎｅｅｄ　ｔｏ　ｅｓｃａｐｅ　</p>
+		<p id="esc2">ｉ　ｎｅｅｄ　ｔｏ　ｅｓｃａｐｅ　</p>
+	</div>
+	
+	<div id="bef" >
+		Name your penguin:<input type="text" name="lname" id="lname"><br/>
+		<input type="button" value="Submit" onClick="pr()">	 
+	</div>
+
+	
+	<div id="ans" style="display:none">
+		Where Is The Penguin?:&nbsp;&nbsp;<input type="text" name="answer" id="answer"><br/>	
+	</div>
+	
+	<button id = "ans_button" style="display:none" onClick="reply()">Submit</button> 
+	
+	
+	<div id="why" style="display:none">Why Am I in <span id="location"></span>?</div>
+	<div id="whynot" style="display:none">Why Don't You Know?</div>
+	
+	
+	<div id="final" style="display:none">
+		Answer:&nbsp;<input type="text" name="final_ans" id="final_ans"><br/>	
+	</div>
+	
+	<button id = "final_button" style="display:none" onClick="escape()">Submit</button> 
+	
+	
+	
+	<div id ="hi" style="display:none">
+		Hi! My Name Is <span id="result"></span><br><br> I ♥ Everybody<br><br> I am Pink Because Everybody Loves Strawberry Milk<br><br>
+		얼큰한 팽귄 매운탕이 땡기시는군요 <br><br>You Can Check Your Reflection On This Black Screen<br><br>Or Use The Sliders On My Right To Move Me Around!
+	</div>
+	
+	<p id="where" style="display:none">Where am I...?</p>
+	
+	<p id= "gone" style="display:none">ｆｒｏｍ　ｔｈｉｓ　<br>ｆａｋｅ　ｒｅａｌｉｔｙ</p>
+	
+	<img id = "door" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/hole.gif" width="250px" height="540px" style = "display:none"></img>
+	<img id = "penguin" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/peng.png"  style = "display:none"></img>
+	<img id = "penguin_2" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/peng_2.png"  style = "display:none"></img>
+	<img id = "full" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/full.png"  style = "display:none"></img>
+
+    <table id = "mytable">
+	
+      <tr>
+        <td>
+          <canvas id="canvas" width="720" height="720">Your browser is too old! Please upgrade to a <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas#Browser_compatibility'><em>canvas</em>-capable browser</a>.</canvas>
+        </td>
+        <td>
+          <table style="display:none" id="sliders">
+            <tr><td>✾･･&nbsp;BODY: x&nbsp;･･✾&nbsp;</td><td><input type="range" min="-40" max="30" value="-5" class="slider" id="slider_torso_x" oninput="draw();" /> </td></tr>
+            <tr><td>✾･･&nbsp;BODY: y&nbsp;･･✾&nbsp;</td><td><input type="range" min="-15" max="30" value="7.5" class="slider" id="slider_torso_y" oninput="draw();" /> </td></tr>
+            <tr><td>✾･･&nbsp;ARM&nbsp;･･✾&nbsp;</td><td><input type="range" min="-180" max="180" value="0" class="slider" id="slider_arm_angle" oninput="draw();" /> </td></tr>
+            <tr><td>✾･･&nbsp;HEAD&nbsp;･･✾&nbsp;</td><td><input type="range" min="-25" max="25" value="0" class="slider" id="slider_head_angle" oninput="draw();" /> </td></tr>
+            <tr><td>✾･･&nbsp;JAW&nbsp;･･✾&nbsp;</td><td><input type="range" min="-12" max="12" value="0" class="slider" id="slider_mouth_gap" oninput="draw();" /> </td></tr>
+            <tr><td>✾･･&nbsp;LEFT LEG&nbsp;･･✾&nbsp;</td><td><input type="range" min="-45" max="45" value="0" class="slider"  id="slider_hip_angle0" oninput="draw();" /> </td></tr>
+            <tr><td>✾･･&nbsp;LEFT FOOT&nbsp;･･✾&nbsp;</td><td><input type="range" min="-30" max="30" value="0" class="slider"  id="slider_ankle_angle0" oninput="draw();" /> </td></tr>
+            <tr><td>✾･･&nbsp;RIGHT LEG&nbsp;･･✾&nbsp;</td><td><input type="range" min="-45" max="45" value="0" class="slider" id="slider_hip_angle1" oninput="draw();" /> </td></tr>
+            <tr><td>✾･･&nbsp;RIGHT FOOT&nbsp;･･✾&nbsp;</td><td><input type="range" min="-30" max="30" value="0" class="slider" id="slider_ankle_angle1" oninput="draw();" /> </td></tr>
+            <tr><td><span id="consc">❀&nbsp;CONSCIOUSNESS&nbsp;❀&nbsp;</span></td><td><input type="range" min="-10" max="0" value="-10" class="slider" id="consci" oninput="first();" /> </td></tr>
+			
+		 </table>
+        </td>
+      </tr>
+    </table>
+	
+		
+	<audio id="bonjr" src="file:///C:/Users/Luky/Desktop/JS_Practice/audio/bonjr.mp3" hidden></audio>
+		
+	
+  </body>
+</html>
+

@@ -1,0 +1,755 @@
+#word {
+	z-index : 1;
+	position : absolute;
+	/*background: linear-gradient(#5b1971, deeppink);*/
+	background: linear-gradient(#3bdeb5, #fc55fc);
+	/*background: linear-gradient(#331452, #66e5c5);*/
+	width : 100%;
+	height : 100%;
+	text-align : center;
+	transition : 0.5s;
+	transform-origin : 0;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104558), auto;
+}
+
+.open-def{
+	transform: rotateY(90deg);
+}
+
+#word-title {
+	color: white;
+	font-size: 15pt;
+	text-align: center;
+}
+
+#word-title2 {
+	color: pink;
+	font-size: 15pt;
+	text-align: center;
+	position: absolute;
+	top:0%; left:33.16%;
+}
+
+#paracosm {
+	color: white;
+	font-size: 35pt;
+	text-align: center;
+}
+
+#word-help{
+	color: black;
+	font-size: 20pt;
+	text-align: center;
+}
+
+#venice_page {
+	background: url(v.gif);
+	position : absolute;
+	width : 100%;
+	height : 100%;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104558), auto;
+}
+
+#intro_page {
+	background: url(drea.png);
+	position : absolute;
+	width : 100%;
+	height : 100%;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104558), auto;
+	font-size:15pt;
+	overflow: hidden;
+}
+
+#introd {
+	padding-left: 52%;
+	padding-right: 3%;
+	padding-top: 1.5%;
+	color: midnightblue;
+	-webkit-animation: fadeinout 4s forwards;
+	font-weight: bold;
+}
+
+#sound {
+	color: darkred;
+	text-decoration: underline; 
+}
+
+#smaller {
+	font-size: 13.4pt;
+}
+
+#vaporw {
+	background: -webkit-linear-gradient(#3bdeb5, #fc55fc);
+	color:white;
+	font-weight: normal;
+}
+
+#plane_page {
+	position : absolute;
+	background: linear-gradient(#4d7e80, darkorange);
+	width : 100%;
+	height : 100%;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104558), auto;
+	font-size: 10.5pt;
+	overflow:hidden;
+	text-align : left;
+}
+
+#plane_poem {
+	position: absolute;
+	top:1%; left:5%;
+	font-weight: bold;
+}
+
+#plane_1, #plane_2, #plane_3, #plane_4, #plane_5 {
+	-webkit-animation: fadeinout 4s linear forwards;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+
+#mayer {
+	font-size: 7pt;
+	position:absolute;
+	top:29%; left:30%;
+	-webkit-animation: fadeinout 4s linear forwards;
+}
+
+#plane_video {
+	position: absolute;
+	top:5%; left:42%;
+}
+
+#video_cred {
+	position: absolute;
+	top:66%; left:60%;
+	color:black;
+	font-size:8.6pt;
+}
+
+#plane_play {
+	position: absolute;
+	top:73%; left:68%;
+	background: linear-gradient(midnightblue, darkred);
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
+	font-size: 13pt;
+	color: grey;
+}
+
+#ciao {
+	font-size: 13.4pt;
+	padding-left: 5%;
+	padding-top: 1%;
+	color: darkslategrey;
+}
+#eng {
+	font-size: 13.4pt;
+	position:absolute;
+	top: 1%; left:5%;
+	color: lightpink;
+}
+#mosh {
+	font-size: 8.6pt;
+	padding-left: 70%;
+}
+#andre {
+	font-size: 8.6pt;
+	padding-left: 24%;
+}
+#nohidea{
+	transform: translate3d(0,10000000000px,0) scale3d(0.1,0.1,0.1);
+	overflow: hidden;
+}
+#washedout{
+	transform: translate3d(0,10000000000px,0) scale3d(0.1,0.1,0.1);
+	overflow: hidden;
+}
+
+#paracosm_page {
+	position : absolute;
+	background: linear-gradient(#66e5c5, black);
+	width : 100%;
+	height : 100%;
+	text-align : center;
+	transition : 0.5s;
+	transform-origin : 0;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104558), auto;
+	overflow: hidden;
+}
+
+#shiloh_page {
+	position : absolute;
+	background: linear-gradient(#ffc999, #efd9c2);
+	width : 100%;
+	height : 100%;
+	text-align : center;
+	transition : 0.5s;
+	transform-origin : 0;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104558), auto;
+}
+
+#moon_page {
+	position : absolute;
+	background:  linear-gradient(#07102c, black);
+	width : 100%;
+	height : 100%;
+	text-align : center;
+	transition : 0.5s;
+	transform-origin : 0;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104558), auto;
+}
+
+#imgBanner {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#para {
+	color: black;
+	font-size: 19pt;
+	text-align: center;
+}
+
+#pronun {
+	font-size: 12pt;
+}
+#noun {
+	color: black;
+	font-size: 8.5pt;
+	text-align: center;
+	font-style: italic; 
+}
+#definition {
+	color: black;
+	font-size: 13.4pt;
+	text-align: center; 
+}
+#space {
+	font-size: 13.4pt;
+	color:lightpink;
+	font-style: italic;  
+}
+#bold {
+	text-decoration: underline;  
+}
+#model {
+	font-size: 8pt;
+	position: absolute;
+	top:94%; left:80%;
+	text-align: left;
+	color: grey;
+}
+
+#shiloh_def1 {
+	background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: white;
+	font-size: 14pt;
+	text-align: center;
+	opacity:0.8;
+}
+
+#shiloh_def2 {
+	background: -webkit-linear-gradient(#595858, #161616);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	font-size: 14pt;
+	text-align: center;
+}
+
+#feeling {
+	color: #333333;
+	font-size: 14pt;
+	text-align: center;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
+}
+
+#nori{
+	transform: translate3d(0,250000000000000000px,0) scale3d(0.1,0.1,0.1);
+	overflow: hidden;
+}
+
+@keyframes fadein {
+  0% {
+    opacity:1;
+  }
+  40% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+#plant1, #plant2, #plant3, #plant4, #plant5, #plant6, #plant7, #plant8, #plant9, #plant10, #plant11, #plant12, #plant113, #plant114, #plant115, #plant15, #plant16, #plant18, #plant19, #plant20, #plant21{
+	position:absolute;
+	font-size: 6pt;
+	color: white;
+	-webkit-animation: fadein 1s forwards;
+	animation-iteration-count: 1000000000;
+}
+
+
+#plant1{
+	-webkit-animation-delay: 1s;
+}#plant2{
+	-webkit-animation-delay: 1.1s;
+}#plant3{
+	-webkit-animation-delay: 1.2s;
+}#plant4{
+	-webkit-animation-delay: 1.3s;
+}#plant5{
+	-webkit-animation-delay: 1.4s;
+}#plant6{
+	-webkit-animation-delay: 1.5s;
+}#plant7{
+	-webkit-animation-delay: 1.6s;
+}#plant8{
+	-webkit-animation-delay: 1.7s;
+}#plant9{
+	-webkit-animation-delay: 1.8s;
+}#plant10{
+	-webkit-animation-delay: 1.9s;
+}#plant11{
+	-webkit-animation-delay: 2s;
+}#plant12{
+	-webkit-animation-delay: 2.1s;
+}
+
+#plant1 {
+	top: 28%; left: 39.3%;
+}#plant2 {
+	top: 81.6%; left: 5%;
+}#plant3 {
+	top: 88%; left: 16%;
+}#plant4 {
+	top: 16%; left: 58.13%;
+}#plant5 {
+	top: 75.1%; left: 2%;
+}#plant6 {
+	top: 6%; left: 8.5%;
+}#plant7 {
+	top: 30.5%; left: 5%;
+}#plant8 {
+	top: 80%; left: 9.5%;
+}#plant9 {
+	top: 64%; left: 30%;
+}#plant10 {
+	top: 42%; left: 20.6%;
+}#plant11 {
+	top: 24%; left: 11.5%;
+}#plant12 {
+	top: 80.7%; left: 62.4%;
+}
+
+#plant15{
+	-webkit-animation-delay: 2.2s;
+}#plant113{
+	-webkit-animation-delay: 2.3s;
+}#plant114{
+	-webkit-animation-delay: 2.4s;
+}#plant115{
+	-webkit-animation-delay: 2.5s;
+}#plant20{
+	-webkit-animation-delay: 2.6s;
+}#plant16{
+	-webkit-animation-delay: 2.7s;
+}#plant21{
+	-webkit-animation-delay: 2.8s;
+}#plant18{
+	-webkit-animation-delay: 2.9s;
+}
+
+#plant15 {
+	top: 6%; left: 83.1%;
+}#plant113 {
+	top: 19%; left: 94%;
+}#plant114 {
+	top: 27.9%; left: 75%;
+}#plant115 {
+	top: 46.2%; left: 66.2%;
+}#plant20 {
+	top: 95.4%; left: 57.7%;
+}#plant16 {
+	top: 73.6%; left: 88.5%;
+}#plant21 {
+	top: 62.3%; left: 79%;
+}#plant18 {
+	top: 91.1%; left: 93.8%;
+}
+
+#paracosm_button {
+	position:absolute;
+    top: 25%;
+    left: 15%;
+	background: none;
+	border: 1px solid #00802b;
+	background: none;
+	color: #00802b;
+	font-size : 17pt;
+	padding: 10px;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
+}
+
+#paracosm_button:hover {
+	background: linear-gradient(#4d0000, #ff0000);
+	color: gold;
+	border: 1px solid gold;
+}
+
+#shiloh_button {
+	position:absolute;
+    top: 23%;
+    left: 79%;
+	background: none;
+	border: 1px solid #9b2fb6;
+	color: #9b2fb6;
+	font-size : 19pt;
+	padding: 10px;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
+}
+
+#shiloh_button:hover {
+	background: linear-gradient(#4d0000, salmon);
+	color: burlywood;
+	border: 1px solid burlywood;
+}
+
+#me {
+	font-size: 7pt;
+}
+#dr {
+	font-size: 7pt;
+}
+
+#venice_button {
+	position:absolute;
+    top: 78%;
+    left: 70%;
+	background: none;
+	border: 1px solid gold;
+	color: gold;
+	font-size : 14pt;
+	padding: 10px;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
+}
+
+#venice_button:hover {
+	background: linear-gradient(#4d0000, salmon);
+	color: bisque;
+	border: 1px solid goldenrod;
+}
+
+#intro_button {
+	background: none;
+	border: 1px solid blue;
+	color: blue;
+	padding: 3px;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
+	font: 15px arial, sans-serif;
+	font-weight: bold;
+}
+
+#intro_button:hover {
+	background: linear-gradient(darkred, midnightblue);
+	color:gold;
+	border: 1px solid gold;
+}
+
+#peng_button {
+	position:absolute;
+    top: 72%;
+    left: 23%;
+	background: none;
+	border: 1px solid red;
+	color: red;
+	font-size : 16pt;
+	padding: 10px;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
+}
+
+#peng_button:hover {
+	background: linear-gradient(darkred, midnightblue);
+	color: orange;
+	border: 1px solid orange;
+}
+
+#moon_button {
+	position:absolute;
+    top: 42%;
+    left: 35%;
+	background: none;
+	color:gold;
+	border: 1px solid gold;
+	font-size : 14pt;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
+}
+
+#moon_button:hover {
+	background: linear-gradient(#07102c, #1a3fb2);
+	color: gold;
+	border: 1px solid gold;
+}
+
+#plane_button {
+	position:absolute;
+    top: 62%;
+    left: 47%;
+	background: none;
+	color: #00802b;
+	border: 1px solid #00802b;
+	font-size : 13.4pt;
+	padding: 10px;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
+}
+
+#plane_button:hover {
+	background: linear-gradient(black, darkblue);
+	color: gold;
+	border: 1px solid gold;
+}
+
+#dream_button {
+	position:absolute;
+    top: 38%;
+    left: 56%;
+	background: none;
+	border: 1px solid red;
+	color:  red;
+	font-size : 13.4pt;
+	padding: 10px;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
+	opacity:0.8;
+}
+
+#dream_button:hover {
+	background: linear-gradient(#440066, darkslategrey);
+	color: gold;
+	border: 1px solid gold;
+	opacity:1;
+}
+
+#poem_button {
+	position:absolute;
+    top: 56%;
+    left: 5%;
+	background:none;
+	border: 1px solid #79258e;
+	color:  #79258e;
+	font-size : 13.4pt;
+	padding: 10px;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
+}
+
+#poem_button:hover {
+	background: linear-gradient(#006600,#330d00);
+	color: gold;
+	border: 1px solid gold;
+}
+
+#luky_button {
+	position:absolute;
+    top: 88.5%;
+    left: 44.5%;
+	background: none;
+	border: 1px solid blue;
+	color:  blue;
+	padding: 3px;
+	font-size: 15px ;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
+	font-weight: bold;
+}
+
+#luky_button:hover {
+	background: linear-gradient(skyblue, darkblue);
+	color: bisque;
+	border: 1px solid bisque;
+}
+
+#video_credit{
+	color: white;
+	font-size: 8pt;
+	text-align: center;
+}
+
+#shiloh_audio_button{
+	background: #ffc999;
+	color: white;
+	font-size : 14pt;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
+}
+
+#shiloh_back_button {
+	background: #ffc999;
+	color: white;
+	font-size : 9pt;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
+}
+
+
+#back_button {
+	background: linear-gradient(lightblue, lightpink);
+	color: white;
+	font-size : 9pt;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
+}
+
+#moon_back_button {
+	background: black;
+	color: white;
+	font-size : 9pt;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
+}
+
+.flash {
+   animation-name: flash;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+	font-size: 13pt;
+}
+
+@keyframes flash {
+    from {color: white;}
+    to {color: lightblue;}
+}
+
+#shiloh1{
+	color: white;
+	font-size: 10pt;
+	position:absolute;
+	top: 10%;
+    left: 10%;
+	-webkit-animation: fadeinout 4s linear forwards;
+}
+
+#shiloh2{
+	color: white;
+	font-size: 15pt;
+	position:absolute;
+	top: 18%;
+    left: 20%;
+	-webkit-animation: fadeinout 4s linear forwards;
+}
+
+#shiloh3{
+	color: white;
+	font-size: 10pt;
+	position:absolute;
+	top: 60%;
+    left: 11%;
+	-webkit-animation: fadeinout 4s linear forwards;
+}
+
+#shiloh4{
+	color: white;
+	font-size: 12pt;
+	position:absolute;
+	top: 61%;
+    left: 21%;
+	-webkit-animation: fadeinout 4s linear forwards;
+}
+
+#shiloh5{
+	color: gray;
+	font-size: 15pt;
+	position:absolute;
+	top: 68%;
+    left: 27%;
+	-webkit-animation: fadeinout 4s linear forwards;
+}
+
+#shiloh6{
+	color: #6585e7;
+	font-size: 10pt;
+	position:absolute;
+	top: 28%;
+    left: 67%;
+	-webkit-animation: fadeinout 4s linear forwards;
+}
+
+#shiloh7{
+	color: #6585e7;
+	font-size: 14pt;
+	position:absolute;
+	top: 30%;
+    left: 72%;
+	-webkit-animation: fadeinout 4s linear forwards;
+}
+
+#shiloh6_repeat{
+	color: salmon;
+	font-size: 10pt;
+	position:absolute;
+	top: 28%;
+    left: 67.2%;
+	-webkit-animation: fadeinout 4s linear forwards;
+}
+
+#shiloh7_repeat{
+	color: salmon;
+	font-size: 14pt;
+	position:absolute;
+	top: 30%;
+    left: 72.2%;
+	-webkit-animation: fadeinout 4s linear forwards;
+}
+
+#shiloh8{
+	color: white;
+	font-size: 10pt;
+	position:absolute;
+	top: 50%;
+    left: 73%;
+	-webkit-animation: fadeinout 4s linear forwards;
+}
+
+#shiloh9{
+	color: lightslategray;
+	font-size: 13.5pt;
+	position:absolute;
+	top: 52%;
+    left: 76.5%;
+	-webkit-animation: fadeinout 4s linear forwards;
+}
+
+#shiloh10{
+	color: lightslategray;
+	font-size: 10pt;
+	position:absolute;
+	top: 56%;
+    left: 83.7%;
+	-webkit-animation: fadeinout 4s linear forwards;
+}
+
+@-webkit-keyframes fadeinout {
+  0% { opacity: 0; }
+  60%,100% { opacity: 1; }
+}
+
+.stage {
+  width: 300px; height: 300px;
+  -webkit-perspective: 1600px;
+  -webkit-perspective-origin: 50% -240px;
+}
+
+figure {
+  display: block; 
+  position: absolute;
+  width: 300px; 
+  height: 300px;
+  background-color: #60c2ef;
+}
+
+@-webkit-keyframes rotate {
+  0% { -webkit-transform: rotateY(0); }
+  100% { -webkit-transform: rotateY(360deg); }
+}
+
+.cube { -webkit-transform-style: preserve-3d; }
+figure { -webkit-transform-origin: 50% 50% 0; }
+.front { -webkit-transform: translateZ(150px); }
+.back { -webkit-transform: rotateY(180deg) translateZ(150px); }
+

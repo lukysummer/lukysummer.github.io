@@ -1,0 +1,177 @@
+<DOCTYPE! html>
+<html>
+<head>
+	<link rel = "stylesheet" href = "lucrece.css">
+	<script src = "lucrece.js"></script>
+</head>
+
+<body style="margin: 0;">
+	<style type="text/css"></style>	
+	<div id = "page">
+		<button id = "edu_button" onclick = "playvid('edu_vid'); revealInfo('edu')">.<br></button> 
+		<button id = "work_button" onclick = "playvid('work_vid'); revealInfo('work')">.</button>
+		<button id = "model_button" onclick = "playvid('model_vid'); revealInfo('model')">.</button>
+		<button id = "cont_button" onclick = "playvid('cont_vid'); revealInfo('cont')">.</button>
+		<button id = "all_button" onclick = "playvid('all_vid'); revealInfo('all')">.</button>
+		
+		<img id = "frame" src="images/vending_machine.png" width="640" height="360">
+		
+		<p id="name">Ｊａｈｙｕｎ　（Ｌｕｃｒｅｃｅ）　Ｓｈｉｎ</p>
+		
+		<video id = "edu_vid" style = "display:none" muted>
+				<source src="file:///C:/Users/Luky/Desktop/JS_Practice/videos/1_edu.ogg" type="video/ogg" />
+				Your browser does not support HTML5 video.
+		</video>
+		
+		<div id = "edu" style = "display:none">
+			<p id="uoft">Ｕｎｉｖｅｒｓｉｔｙ　ｏｆ　Ｔｏｒｏｎｔｏ  （'１８）<br><br><br></p>
+			<p id="deg">Ｂａｃｈｅｌｏｒ　ｏｆ　Ａｐｐｌｉｅｄ　Ｓｃｉｅｎｃｅ　（Ｂ．Ａ．Ｓｃ．）<br><br>Ｍｅｃｈａｎｉｃａｌ　Ｅｎｇｉｎｅｅｒｉｎｇ<br><br><br></p>
+			<p id="lang">have experience with:</p>
+			<p id="list"><br>python (+ numpy, scipy)<br>matlab<br>linux<br>Autodesk Maya<br>html<br>css<br>javascript<br>arduino<br>unity 3d<br>
+						GLSL<br>c++<br>java<br>audacity</p>
+		</div>
+		
+		
+		<video id = "work_vid" style = "display:none" muted>
+				<source src="file:///C:/Users/Luky/Desktop/JS_Practice/videos/2_work.ogg" type="video/ogg" />
+				Your browser does not support HTML5 video.
+		</video>
+		
+		<div id="work" style = "display:none">
+			<p id="pos">Graphics Hardware Verification Engineer<br></p>
+			<p id="amd">Advanced Micro Devices (AMD)<br><br>Markham, ON, Canada<br><br></p>
+			<p id="date"><br>May 2016 - Aug 2017 (16 mo.)</p>
+			<p id="task">
+				<br>▸		Assembled pre-production hardware components of computers to enable boot-up under varios OS/BIOS settings (Mac OS, Windows, Linux)
+				<br><br>▸		Designed and executed stress test procedure for graphic memory hardware (GDDR5, HBM), using OpenGL Performance Benchmarks, 
+								to validate optimal clock settings and power efficiency
+				<br><br>▸		Assisted in debug process through investigating root causes and toggling different variables 
+								*e.g. GPU register settings, system BIOS, ambient temperature)
+				<br><br>▸		Automated test frameworks using linux shell scripting for testing and output consolidations
+				<br><br>▸		Managed inventories of main products in testing as well as secondary hardware componenets
+			</p>
+		</div>
+		
+		
+		<video id = "model_vid" style = "display:none" muted>
+				<source src="file:///C:/Users/Luky/Desktop/JS_Practice/videos/3_model.ogg" type="video/ogg" />
+				Your browser does not support HTML5 video.
+		</video>
+		
+		<div id="model" style = "display:none">
+			
+			<img id = "s1" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_1.jpg" onclick = "showImg('b1');"></img>
+			<img id = "s2" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_2.jpg" onclick = "showImg('b2');"></img>
+			<img id = "s3" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_3.jpg" onclick = "showImg('b3');"></img>
+			<img id = "s4" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_4.jpg" onclick = "showImg('b4');"></img>
+			<img id = "s5" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_4.5.jpg" onclick = "showImg('b5');"></img>
+			<img id = "s6" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_5.jpg" onclick = "showImg('b6');"></img>
+			<img id = "s7" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_5.5.jpg" onclick = "showImg('b7');"></img>
+			<img id = "s8" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_6.jpg" onclick = "showImg('b8');"></img>
+			<img id = "s9" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_7.jpg" onclick = "showImg('b9');"></img>
+			<img id = "s10" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_8.jpg" onclick = "showImg('b10');"></img>
+			<img id = "s11" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_9.jpg" onclick = "showImg('b11');"></img>
+			<img id = "s12" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_10.jpg" onclick = "showImg('b12');"></img>
+			<img id = "s13" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_11.jpg" onclick = "showImg('b13');"></img>
+			<img id = "s14" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_12.jpg" onclick = "showImg('b14');"></img>
+			<img id = "s15" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_13.jpg" onclick = "showImg('b15');"></img>
+			<img id = "s16" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_14.jpg" onclick = "showImg('b16');"></img>
+			<img id = "s17" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_15.jpg" onclick = "showImg('b17');"></img>
+			<img id = "s18" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_16.jpg" onclick = "showImg('b18');"></img>
+			<img id = "s19" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_17.jpg" onclick = "showImg('b19');"></img>
+			<img id = "s20" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_18.jpg" onclick = "showImg('b20');"></img>
+			<img id = "s21" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_19.png" onclick = "showImg('b21');"></img>
+			<img id = "s22" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_20.jpg" onclick = "showImg('b22');"></img>
+			<img id = "s23" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_23.jpg" onclick = "showImg('b23');"></img>
+			<img id = "s24" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_24.jpg" onclick = "showImg('b24');"></img>
+			<img id = "s25" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_25.jpg" onclick = "showImg('b25');"></img>
+			
+			
+			<img id = "b1" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_1.jpg" style = "display:none"></img>
+			<img id = "b2" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_2.jpg" style = "display:none"></img>
+			<img id = "b3" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_3.jpg" style = "display:none"></img>
+			<img id = "b4" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_4.jpg" style = "display:none"></img>
+			<img id = "b5" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_4.5.jpg" style = "display:none"></img>
+			<img id = "b6" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_5.jpg" style = "display:none"></img>
+			<img id = "b7" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_5.5.jpg" style = "display:none"></img>
+			<img id = "b8" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_6.jpg" style = "display:none"></img>
+			<img id = "b9" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_7.jpg" style = "display:none"></img>
+			<img id = "b10" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_8.jpg" style = "display:none"></img>
+			<img id = "b11" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_9.jpg" style = "display:none"></img>
+			<img id = "b12" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_10.jpg" style = "display:none"></img>
+			<img id = "b13" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_11.jpg" style = "display:none"></img>
+			<img id = "b14" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_12.jpg" style = "display:none"></img>
+			<img id = "b15" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_13.jpg" style = "display:none"></img>
+			<img id = "b16" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_14.jpg" style = "display:none"></img>
+			<img id = "b17" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_15.jpg" style = "display:none"></img>
+			<img id = "b18" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_16.jpg" style = "display:none"></img>
+			<img id = "b19" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_17.jpg" style = "display:none"></img>
+			<img id = "b20" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_18.jpg" style = "display:none"></img>
+			<img id = "b21" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_19.png" style = "display:none"></img>
+			<img id = "b22" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_20.jpg" style = "display:none"></img>
+			<img id = "b23" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_23.jpg" style = "display:none"></img>
+			<img id = "b24" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_24.jpg" style = "display:none"></img>
+			<img id = "b25" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/_25.jpg" style = "display:none"></img>
+			
+			
+			<p id="jarrett">ｔｏ　ｂｏｏｋ，　ｃｏｎｔａｃｔ：　<br><span id="book">ｊａｒｒｅｔｔ＠ｃｉｏｔｔｉｍｏｄｅｌｓ．ｃｏｍ</span></p>
+			<a id = "ciotti" href="http://www.ciottimodels.com/talent/jahyun-shin-71606?profile=true" target="_blank">✿ａｇｅｎｃｙ　ｐａｇｅ✿</a>
+		</div>
+	
+		<video id = "cont_vid" style = "display:none" muted>
+				<source src="file:///C:/Users/Luky/Desktop/JS_Practice/videos/4_cont.ogg" type="video/ogg" />
+				Your browser does not support HTML5 video.
+		</video>
+	
+		<div id="cont" style = "display:none">
+			<img id = "call" src = "file:///C:/Users/Luky/Desktop/JS_Practice/images/call.png"  ></img>
+			<p name="name">ｎａｍｅ：</p>
+			<p name="msg">ｍｅｓｓａｇｅ：</p>
+			<p id="email">Ｌｏｓｔ．．．？<br><br><br>ｃｏｎｔａｃｔ　ｍｅ　ｆｏｒ　ａｎｙ　<br>ｉｎｑｕｉｒｉｅｓ／　ｑｕｅｓｔｉｏｎｓ／　ｃｏｍｍｅｎｔｓ　＾◡＾：　<br><br>
+			<span id="luc">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ｌｕｃｒｅｃｅ．ｓｈｉｎ＠ｕｔｏｒｏｎｔｏ．ｃａ</span></p>
+		</div>
+		
+		<video id = "all_vid" style = "display:none" muted>
+				<source src="file:///C:/Users/Luky/Desktop/JS_Practice/videos/5_all.ogg" type="video/ogg" />
+				Your browser does not support HTML5 video.
+		</video>
+		
+		<div id="all" style = "display:none">
+			<p id="credit">
+				<span id="stars">☆ﾟ.*･｡ﾟ.*･｡ﾟ☆ﾟ</span>　　<span id="head">Ｍｕｓｉｃ　Ｃｒｅｄｉｔ</span>　　<span id="stars">☆ﾟ.*･｡ﾟ.*･｡ﾟ☆ﾟ</span><br><br>
+				(homepage) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Flowers (ft. Nori) [In Love With A Ghosht]<br><br>
+				(intro) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About You [XXYYXX]<br><br>
+				(paracosm) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Paracosm [Washed Out] (remix by Lucrece Shin)　<br><br>
+				(Shiloh)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I know you so well [Shiloh dynasty]<br><br>
+				(☾) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Little's Theme - Moonlight Original Motion Picture Soundtrack [Nicholas Britell]<br><br>
+				(mellow walk at 3AM) &nbsp;&nbsp;&nbsp;A Dedication [Washed Out]<br><br>
+				(escape)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It's Ok, You're Ok [Bonjr]<br><br>
+				(am i dreaming..?)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Visions of Gideon [Sufjan Stevens] (remix by Lucrece Shin)<br><br>
+				(exhibition: A Living) &nbsp;The Shape of Water [Alexandre Desplat]<br><br>
+				(Venezia) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;you don't have to cry [nohidea]<br><br><br>
+				
+				<span id="stars">☆ﾟ.*･｡ﾟ.*･｡ﾟ☆ﾟ</span>　　<span id="head">Ｆｉｌｍ　Ｉｎｓｐｉｒａｔｉｏｎｓ</span>　　<span id="stars">☆ﾟ.*･｡ﾟ.*･｡ﾟ☆ﾟ</span><br><br>
+				《A Pigeon Sat on A Branch Reflecting on Existence》 - Roy Andersson<br><br>
+				《Songs from the Second Floor》 - Roy Andersson<br><br>
+				《Call Me By Your Name》 - Luca Guadagnino<br><br>
+				《Moonlight》 - Barry Jenkins<br><br>
+				《2001: A Space Odyssey》 - Stanley Kubrick<br><br>
+				《Loving Vincent》 - Dorota Kobiela & Hugh Welchman<br><br>
+				《Iblard Jikan》 - Naohisa Inoue<br><br>
+			</p>
+			<p id = "misc">
+				<span id="stars">☆ﾟ.*･｡ﾟ.*･｡ﾟ☆ﾟ</span>　　<span id="head">Ｏｔｈｅｒ</span>　　<span id="stars">☆ﾟ.*･｡ﾟ.*･｡ﾟ☆ﾟ</span><br><br>
+				Vincent Van Gogh <br><br>
+				<a id = "mosh" href = "www.photomosh.com" target="_blank">www.photomosh.com</a>&nbsp;&nbsp;by Felix Turner<br><br>
+				<a id = "mosh" href =  "https://lingojam.com/VaporwaveTextGenerator" target="_blank">Vaporwave Text Generator</a><br><br>
+				CSC418 - Computer Graphics: Penguin Assignment <br><br>
+				《Born and Raised》 - album by John Mayer <br><br>
+				《Depression Cherry》 - album by Beach House <br><br>
+				《Rick and Morty》 - Animated TV series 
+			</p>
+		</div>
+	</div>
+		 
+	
+</body>
+</html>

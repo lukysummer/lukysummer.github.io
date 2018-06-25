@@ -1,0 +1,285 @@
+html
+{
+  margin: 0px;
+  padding: 0px;
+  background: url(bl.jpg);
+  font-weight: 300;
+  height: 100%;
+  overflow:hidden;
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104558), auto;
+}
+#bef {
+	position:absolute;
+	top:2%; left:55%;
+}
+#hi {
+	position:absolute;
+	top:18%; left:5%;
+}
+#where {
+	position:absolute;
+	top:25%; left:10%;
+	font-size: 20pt;
+	color: blue;
+	-webkit-animation: in 5s forwards;
+}
+#ans {
+	position:absolute;
+	top:47%; left:10%;
+	color:  #0080ff;
+	-webkit-animation: slowin 6s forwards;
+	
+}
+
+#why {
+	position:absolute;
+	top:30%; left:10%;
+	font-size: 18pt;
+	color: blue;
+	-webkit-animation: slowin 3s forwards;
+}
+
+#whynot {
+	position:absolute;
+	top:30%; left:10%;
+	font-size: 18pt;
+	color: blue;
+	-webkit-animation: slowin 3s forwards;
+}
+
+input {
+	z-index:1;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;		
+}
+
+#ans_button {
+	z-index:1;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
+	position:absolute;
+	top:52.5%; left:10%;
+	-webkit-animation: slowin 6s forwards;
+}
+
+#final {
+	position:absolute;
+	top:47%; left:10%;
+	color:  #0080ff;
+	-webkit-animation: slowin 7s forwards;
+	z-index:1;
+}
+
+#final_button {
+	z-index:1;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
+	position:absolute;
+	top:52.5%; left:10%;
+	-webkit-animation: slowin 7s forwards;
+}
+
+#consc {
+	color: salmon;
+}
+
+body
+{
+  font-size: 12.5pt;
+  color: #ff8095;
+  margin:0px auto;
+  text-align: justify;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;	
+  width: 100%;
+  height: 100%;
+  padding-left: 22%;
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104558), auto;
+}
+
+pre, code {
+  font-size: 0.85em;
+  font-family: Consolas, Inconsolata, Courier, monospace;
+}
+
+code {
+  margin: 0 0.15em;
+  padding: 0 0.3em;
+  border: 0.5px solid white;
+  background: linear-gradient(lightblue, black);
+  border-radius: 3px;
+  display: inline; /* added to fix Yahoo block display of inline code */
+}
+
+pre {
+  font-size: 1em;
+  line-height: 1.2em;
+}
+
+pre code {
+  white-space: pre;
+  overflow: hidden; /* fixes issue #70: Firefox/Thunderbird: Code blocks with horizontal scroll would have bad background colour */
+  border-radius: 3px;
+  border: 1px solid white;
+  padding: 0.5em 0.7em;
+  display: block !important; /* added to counteract the Yahoo-specific `code` rule; without this, code blocks in Blogger are broken */
+}
+
+/* This spacing has been tweaked to closely match Gmail+Chrome "paragraph" (two line breaks) spacing. 
+body p {
+  /* !important is needed here because Hotmail/Outlook.com uses !important to
+     kill the margin in <p>. We need this to win. */
+  /*margin: 1.2em 0 !important;
+}
+*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 1.3em 0 1em;
+  padding: 0;
+}
+
+#robot {
+  font-size: 16pt;
+ position: absolute;
+ top:1%;
+ left:51%;
+ color: royalblue;
+ font-weight: bold;
+}
+
+#esc {
+  font-size: 18pt;
+ position: absolute;
+ top:2%;
+ left:18.8%;
+ color: red;
+}
+#esc2 {
+  font-size: 18pt;
+ position: absolute;
+ top:2%;
+ left:19%;
+ color: blue;
+}
+#line {
+ font-size: 14pt;
+ position: absolute;
+ top:1.5%;
+ left:50.8%;
+ color: red;
+}
+#full {
+ position: absolute;
+ top:49.4%;
+ left:75.4%;
+}
+#gone {
+ position: absolute;
+ top:57%; left:76%;
+ font-size:14pt;
+ color:red;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: linear-gradient(lightblue, black);
+}
+
+h2 {
+  font-size: 1.25em;
+  border-bottom: 1px solid #eee;
+}
+
+h3 {
+  font-size: 1.15em;
+}
+
+h4 {
+  font-size: 1.75em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 1em;
+  color:white;
+}
+
+table
+{ 
+  text-align: right;
+  padding-top: 2%;
+}
+table tr td
+{
+  vertical-align: top;
+}
+
+#door
+{
+	position: absolute;
+	top:13.1%; left:2%;
+	opacity: 0;
+	-webkit-animation-delay: 1s;
+	-webkit-animation: fadein 7s forwards;
+	animation-iteration-count: 1;
+}
+
+#penguin
+{
+	z-index:-1;
+	position: absolute;
+	top:12.7%; left:26.2%;
+	-webkit-animation-delay: 1s;
+	-webkit-animation: fadein 7s forwards;
+	animation-iteration-count: 1;
+	opacity: 0;
+}
+
+#penguin_2
+{
+	z-index:-1;
+	position: absolute;
+	top:13%; left:13%;
+	-webkit-animation-delay: 3.2s;
+	-webkit-animation: fadein 7s forwards;
+	animation-iteration-count: 1;
+	opacity: 0;
+}
+
+@keyframes fadein {
+  0% {
+    opacity:0;
+  }
+  30% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@keyframes in {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@keyframes slowin {
+  0% {
+    opacity:0;
+  }
+  50% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+#bonjr{
+	transform: translate3d(0,10000000000px,0) scale3d(0.1,0.1,0.1);
+	overflow: hidden;
+}
