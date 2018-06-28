@@ -218,6 +218,7 @@
 	position:absolute;
 	top:0%; left:0%;
 	-webkit-animation: fadeout 9s linear forwards;
+	-webkit-animation: movedown 9s linear forwards;
 }
 
 @keyframes fadeout {
@@ -231,6 +232,19 @@
     opacity:0;
   }
 }
+
+@keyframes movedown {
+  0% {
+    transform:translate3d(0,0,0);
+  }
+  99% {
+    transform:translate3d(0,0,0);
+  }
+  100% {
+    transform:translate3d(0,-766px,0);
+  }
+}
+
 
 #load_txt {
 	position:absolute;
