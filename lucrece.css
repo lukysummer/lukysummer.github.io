@@ -178,11 +178,16 @@
 #email{
 	top: 68%; left:34%;
 	font-size:13.4pt;
-	color: #5353ac;
+	color: #51b8e1;
 }
 
 #luc {
 	color: gold;
+}
+
+#phone_maya {
+	color:white;
+	font-size:8.6pt;
 }
 
 /* 5. all */
@@ -245,11 +250,9 @@
   }
 }
 
-
 #load_txt {
 	position:absolute;
 	top:37%; left:37%;
 	color: #51b8e1;
 	font-size: 24pt;
 }
-
