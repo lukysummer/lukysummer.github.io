@@ -214,3 +214,21 @@
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;	
 }
 
+#loading {
+	position:absolute;
+	top:0%; left:0%;
+	-webkit-animation: fadeout 12s linear forwards;
+}
+
+@keyframes fadeout {
+  0% {
+    opacity:1;
+  }
+  50% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
