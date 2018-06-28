@@ -234,8 +234,8 @@
 
 #load_txt {
 	position:absolute;
-	top:35%; left:35%;
-	color: #51b8e1;
+	top:30%; left:30%;
+	color: /*#51b8e1;*/white;
 	font-size: 24pt;
 }
 
