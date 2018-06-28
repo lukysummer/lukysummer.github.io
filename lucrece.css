@@ -216,19 +216,26 @@
 
 #loading {
 	position:absolute;
-	top:-5%; left:0%;
-	-webkit-animation: fadeout 12s linear forwards;
+	top:0%; left:0%;
+	-webkit-animation: fadeout 9s linear forwards;
 }
 
 @keyframes fadeout {
   0% {
     opacity:1;
   }
-  50% {
+  95% {
     opacity:1;
   }
   100% {
     opacity:0;
   }
+}
+
+#load_txt {
+	position:absolute;
+	top:30%; left:30%;
+	color: white;
+	font-size: 17pt;
 }
 
