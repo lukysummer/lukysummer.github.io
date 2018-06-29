@@ -11,17 +11,39 @@
 	overflow: hidden;
 	padding:0px;
 }
-
-#frame, #edu_vid, #work_vid, #model_vid, #cont_vid, #all_vid{
+/*
+#work_vid, #model_vid, #cont_vid, #all_vid{
 	width: 640px;
 	height: 360px;
 	position: absolute;
 	top: 20%; left:-8%;
 	padding:0px;
-	z-index:-1;
+	z-index:2;
 	transform: rotate3d(0,0,1,-90deg);
 }
+*/
 
+#buttons {
+	width: 640px;
+	height: 360px;
+	position: absolute;
+	top: 20%; left:-8%;
+	padding:0px;
+	border:none;
+	transform: rotate3d(0,0,1,-90deg);
+}
+	
+#frame{
+	width: 640px;
+	height: 360px;
+	z-index:-1;
+}
+
+#edu_vid, #work_vid, #model_vid, #cont_vid, #all_vid{
+	position:absolute;
+	top:0%;left:0%;
+}
+	
 #edu_button, #work_button, #model_button, #cont_button, #all_button {
 	background: none;
 	font-size: 12pt;
@@ -30,45 +52,43 @@
 	position: absolute;
 	padding-left: 71px;
 	padding-right: 71px;
+	padding-top: 13px;
 	outline-style: none;
+	z-index:3;
+	transform: rotate3d(0,0,1,-90deg);
 }
 
 #edu_button {
 	color: darkgreen;
-	top: 67.7%; left:3.8%;
-	padding-top: 13px;
+	top: 19.5%; left:13.5%;
 	padding-bottom: 13px;
 }
 
 #work_button {
 	color: #aa00ff;
-	top: 67.7%; left:15.5%;
-	padding-top: 13px;
+	top: 63.5%; left:13%;
 	padding-bottom: 19px;
 }
 
 #model_button {
 	color: grey;
-	top: 77.5%; left:3.6%;
+	top: 19%; left:2.8%;
 	padding-left: 73px;
-	padding-top: 13px;
 	padding-bottom: 16px;
 }
 
 #cont_button {
 	color: grey;
-	top: 77.3%; left:15.5%;
+	top: 65.5%; left:3.8%;
 	padding-left: 73px;
-	padding-top: 13px;
 	padding-bottom: 6px;
 }
 
 #all_button {
 	color: #ff1aff;
-	top: 87%; left:8.7%;
+	top: 43%; left:-8%;
 	padding-left: 89px;
 	padding-right: 80px;
-	padding-top: 13px;
 	padding-bottom: 6px;
 }
 
@@ -88,6 +108,7 @@
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
 
+/* 1. education */
 #uoft {
 	top: 13%; left:35%;
 	font-size:17pt;
@@ -110,6 +131,8 @@
 	font-size:13pt;
 }
 
+
+/* 2. work */
 #pos {
 	top: 13%; left:30%;
 	font-size:17pt;
@@ -176,18 +199,13 @@
 }
 
 #email{
-	top: 61.5%; left:34%;
+	top: 68%; left:34%;
 	font-size:13.4pt;
-	color: #51b8e1;
+	color: #5353ac;
 }
 
 #luc {
 	color: gold;
-}
-
-#phone_maya {
-	color:white;
-	font-size:8.6pt;
 }
 
 /* 5. all */
@@ -219,40 +237,3 @@
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;	
 }
 
-#loading {
-	position:absolute;
-	top:0%; left:0%;
-	-webkit-animation: fadeout 9s linear forwards;
-	-webkit-animation: movedown 9s linear forwards;
-}
-
-@keyframes fadeout {
-  0% {
-    opacity:1;
-  }
-  95% {
-    opacity:1;
-  }
-  100% {
-    opacity:0;
-  }
-}
-
-@keyframes movedown {
-  0% {
-    transform:translate3d(0,0,0);
-  }
-  99% {
-    transform:translate3d(0,0,0);
-  }
-  100% {
-    transform:translate3d(0,-766px,0);
-  }
-}
-
-#load_txt {
-	position:absolute;
-	top:37%; left:37%;
-	color: #51b8e1;
-	font-size: 24pt;
-}
