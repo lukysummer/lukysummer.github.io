@@ -199,9 +199,14 @@
 }
 
 #email{
-	top: 68%; left:34%;
+	top: 61.5%; left:34%;
 	font-size:13.4pt;
-	color: #5353ac;
+	color: #51b8e1;
+}
+
+#phone_maya {
+	color:white;
+	font-size:8.6pt;
 }
 
 #luc {
@@ -237,3 +242,42 @@
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;	
 }
 
+
+
+#loading {
+	position:absolute;
+	top:0%; left:0%;
+	-webkit-animation: fadeout 9s linear forwards;
+	-webkit-animation: movedown 9s linear forwards;
+}
+
+@keyframes fadeout {
+  0% {
+    opacity:1;
+  }
+  95% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@keyframes movedown {
+  0% {
+    transform:translate3d(0,0,0);
+  }
+  99% {
+    transform:translate3d(0,0,0);
+  }
+  100% {
+    transform:translate3d(0,-766px,0);
+  }
+}
+
+#load_txt {
+	position:absolute;
+	top:37%; left:37%;
+	color: #51b8e1;
+	font-size: 24pt;
+}
