@@ -18,16 +18,25 @@
 
 #word-title {
 	color: white;
-	font-size: 15pt;
+	font-size: 28pt;
 	text-align: center;
+	position: absolute;
+	top:10%; left:20%;
 }
 
 #word-title2 {
 	color: pink;
-	font-size: 15pt;
+	font-size: 28pt;
 	text-align: center;
 	position: absolute;
-	top:0%; left:33.16%;
+	top:10%; left:20.4%;
+}
+
+#foryou {
+	color: pink;
+	font-size: 21pt;
+	position: absolute;
+	top:24%; left:76%;
 }
 
 #paracosm {
@@ -51,6 +60,7 @@
 }
 
 #intro_page {
+	background: url(drea.png);
 	position : absolute;
 	width : 100%;
 	height : 100%;
@@ -268,12 +278,6 @@
 	overflow: hidden;
 }
 
-#intro_img{
-	z-index: -1;
-	position: absolute;
-	top:0%; left:0%;
-}
-
 @keyframes fadein {
   0% {
     opacity:1;
@@ -385,10 +389,7 @@
 
 #paracosm_button {
 	position:absolute;
-    top: 25%;
-    left: 15%;
-	background: none;
-	border: 1px solid #00802b;
+    top: 40%; left: 19%;
 	background: none;
 	color: #00802b;
 	font-size : 17pt;
@@ -404,10 +405,10 @@
 
 #shiloh_button {
 	position:absolute;
-    top: 23%;
-    left: 79%;
+    top: 36%;
+    left: 67%;
 	background: none;
-	border: 1px solid #9b2fb6;
+	
 	color: #9b2fb6;
 	font-size : 19pt;
 	padding: 10px;
@@ -415,6 +416,27 @@
 }
 
 #shiloh_button:hover {
+	background: linear-gradient(#4d0000, salmon);
+	color: burlywood;
+	border: 1px solid burlywood;
+}
+
+#vol2 {
+	font-size:9pt;
+}
+#shiloh2_button {
+	position:absolute;
+    top: 53%;
+    left: 74%;
+	background: none;
+	
+	color: olive;
+	font-size : 14pt;
+	padding: 10px;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
+}
+
+#shiloh2_button:hover {
 	background: linear-gradient(#4d0000, salmon);
 	color: burlywood;
 	border: 1px solid burlywood;
@@ -429,10 +451,10 @@
 
 #venice_button {
 	position:absolute;
-    top: 78%;
-    left: 70%;
+    top: 75%;
+    left: 56%;
 	background: none;
-	border: 1px solid gold;
+	
 	color: gold;
 	font-size : 14pt;
 	padding: 10px;
@@ -447,7 +469,7 @@
 
 #intro_button {
 	background: none;
-	border: 1px solid blue;
+	
 	color: blue;
 	padding: 3px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
@@ -466,7 +488,7 @@
     top: 72%;
     left: 23%;
 	background: none;
-	border: 1px solid red;
+	
 	color: red;
 	font-size : 16pt;
 	padding: 10px;
@@ -481,12 +503,10 @@
 
 #moon_button {
 	position:absolute;
-    top: 42%;
-    left: 35%;
+    top: 54%; left: 38%;
 	background: none;
 	color:gold;
-	border: 1px solid gold;
-	font-size : 14pt;
+	font-size : 17pt;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
 }
 
@@ -498,11 +518,11 @@
 
 #plane_button {
 	position:absolute;
-    top: 62%;
-    left: 47%;
+    top: 63%;
+    left: 45%;
 	background: none;
 	color: #00802b;
-	border: 1px solid #00802b;
+	
 	font-size : 13.4pt;
 	padding: 10px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
@@ -516,10 +536,8 @@
 
 #dream_button {
 	position:absolute;
-    top: 38%;
-    left: 56%;
+    top: 47%; left: 48%;
 	background: none;
-	border: 1px solid red;
 	color:  red;
 	font-size : 13.4pt;
 	padding: 10px;
@@ -536,10 +554,8 @@
 
 #poem_button {
 	position:absolute;
-    top: 56%;
-    left: 5%;
+    top: 56%; left: 10%;
 	background:none;
-	border: 1px solid #79258e;
 	color:  #79258e;
 	font-size : 13.4pt;
 	padding: 10px;
@@ -554,10 +570,9 @@
 
 #luky_button {
 	position:absolute;
-    top: 88.5%;
+    top: 86%;
     left: 44.5%;
 	background: none;
-	border: 1px solid blue;
 	color:  blue;
 	padding: 3px;
 	font-size: 15px ;
@@ -568,20 +583,12 @@
 #luky_button:hover {
 	background: linear-gradient(skyblue, darkblue);
 	color: bisque;
-	border: 1px solid bisque;
 }
 
 #video_credit{
 	color: white;
 	font-size: 8pt;
 	text-align: center;
-}
-
-#shiloh_audio_button{
-	background: #ffc999;
-	color: white;
-	font-size : 14pt;
-	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
 }
 
 #shiloh_back_button {
@@ -729,9 +736,227 @@
 	-webkit-animation: fadeinout 4s linear forwards;
 }
 
+#lukyluky{
+	color: white;
+	font-size: 12pt;
+	position:absolute;
+	top: 88.5%;
+    left: 22%;
+	-webkit-animation: fadeinout2 4s linear forwards;
+	animation-iteration-count: 1000000000;
+}
+
+@-webkit-keyframes fadeinout2 {
+   0% {
+    opacity:0;
+  }
+  50% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+/* SHILOH VOL.2 PAGE */
+
+#shiloh2_page {
+	position : absolute;
+	background: linear-gradient(black, #330000);
+	width : 100%;
+	height : 100%;
+	text-align : center;
+	transition : 0.5s;
+	transform-origin : 0;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104558), auto;
+}
+
+#shiloh2_audio_button{
+	background: none;
+	color: #e60000;
+	border: 1.1px solid #e60000;
+	font-size : 14pt;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
+	opacity:0.6;
+	position : absolute;
+	top:35%; left:50%;
+}
+
+#shiloh2_def1 {
+	color: darkslategrey;
+	font-size: 14pt;
+	text-align: center;
+	opacity:0.8;
+	-webkit-animation: fadeinout 9s linear forwards;
+}
+
+#shiloh2_def2 {
+	color: 503030;
+	font-size: 14pt;
+	text-align: center;
+	-webkit-animation: fadeinout 8s linear forwards;
+}
+
+#shiloh2_def3 {
+	color: 403050;
+	font-size: 14pt;
+	text-align: center;
+	-webkit-animation: fadeinout 9s linear forwards;
+}
+
+#shiloh21, #shiloh22, #shiloh23, #shiloh24, #shiloh211, #shiloh222, #shiloh233, #shiloh244 {
+	color: 222267;
+	font-size: 16pt;
+	position:absolute;
+	-webkit-animation: fadeinout 10s linear forwards;
+	opacity: 0.8;
+	z-index: 2;
+}
+#shiloh21{
+	top: 56%; left: 32%;
+}
+#shiloh22{
+	top: 56%; left: 48%;
+}
+#shiloh23{
+	top: 72%; left: 31%;
+}
+#shiloh24{
+	top: 72%; left: 58%;
+	opacity: 0.8;
+	color: #235c5c;
+}
+
+#shiloh211, #shiloh222, #shiloh233, #shiloh244 {
+	color: red;
+	-webkit-animation: fadeinout7 10s linear forwards;
+}
+#shiloh211{
+	top: 56%; left: 32.2%;
+}
+#shiloh222{
+	top: 56%; left: 48.2%;
+}
+#shiloh233{
+	top: 72%; left: 31.2%;
+}
+#shiloh244{
+	top: 72%; left: 58.2%;	
+}
+
+#time1, #time2, #time3{
+	position: absolute;
+	color: darkred;
+	font-size: 13.4pt;
+	-webkit-animation: fadeinout 10s linear forwards;
+}
+#time1{
+	top:50%; left:8%;
+}
+#time2{
+	top:50%; left:82%;
+}
+#time3{
+	top:60%; left:8%;
+}
+
+#_planes{
+	position: absolute;
+	top:0%; left:0%;
+	-webkit-animation: fadeinout 10s linear forwards;
+	opacity:0.8;
+}
+
+#shiloh28, #shiloh29, #shiloh30, #shiloh31, #shiloh32 {
+	font-size: 21pt;
+	-webkit-animation: fadeinout 6s linear forwards;
+	position: absolute; 
+	opacity: 0.5;
+}
+#shiloh28{
+	top: 68%; left: 57.2%;	
+}
+#shiloh29{
+	top: 58%; left: 57.2%;	
+}
+#shiloh30{
+	top: 48%; left: 57.2%;	
+}
+#shiloh31{
+	top: 38%; left: 57.2%;	
+}
+#shiloh32{
+	top: 14%; left: 67.2%;	
+}
+
+#_moon{
+	position: absolute;
+	top:0%; left:0%;
+	-webkit-animation: fadeinout 9s linear forwards;
+	opacity:0.8;
+}
+#its, #all, #over, #now {
+	font-size: 21pt;
+	-webkit-animation: fadeinout 4s linear forwards;
+	position: absolute; 
+	opacity: 0.7;
+}
+#its{
+	top: 5%; left: 27.2%;	
+}
+#all{
+	top: 18%; left: 37.2%;	
+}
+#over{
+	top: 29%; left: 45%;	
+}
+#now{
+	top: 48%; left: 63.2%;	
+}
+
+#overr{
+	position: absolute;
+	color: darkred;
+	font-size: 13.4pt;
+	-webkit-animation: fadeinout 10s linear forwards;
+	top:48%; left:75%;
+}
+
+#dream_red{
+	position: absolute;
+	top:0%; left:0%;
+	-webkit-animation: fadeinout 9s linear forwards;
+	opacity:0.8;
+}
+#youll, #be, #oright, #intime {
+	font-size: 19pt;
+	-webkit-animation: fadeinout 10s linear forwards;
+	position: absolute; 
+	color: black;
+	opacity: 0.8;
+}
+#youll{
+	top: 15%; left: 15%;	
+}
+#be{
+	top: 20%; left: 20%;	
+}
+#oright{
+	top: 47%; left: 47%;	
+}
+#intime{
+	top: 62%; left: 62%;	
+}
+
+
 @-webkit-keyframes fadeinout {
   0% { opacity: 0; }
   60%,100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeinout7 {
+  0% { opacity: 0; }
+  60%,100% { opacity: 0.4; }
 }
 
 .stage {
