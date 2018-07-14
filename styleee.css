@@ -518,11 +518,9 @@
 
 #plane_button {
 	position:absolute;
-    top: 63%;
-    left: 45%;
+    	top: 63%; left: 55%;
 	background: none;
 	color: #00802b;
-	
 	font-size : 13.4pt;
 	padding: 10px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
