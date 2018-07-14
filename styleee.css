@@ -405,10 +405,8 @@
 
 #shiloh_button {
 	position:absolute;
-    top: 36%;
-    left: 67%;
+        top: 36%; left: 67%;
 	background: none;
-	
 	color: #9b2fb6;
 	font-size : 19pt;
 	padding: 10px;
@@ -429,7 +427,6 @@
     top: 53%;
     left: 74%;
 	background: none;
-	
 	color: olive;
 	font-size : 14pt;
 	padding: 10px;
@@ -518,7 +515,7 @@
 
 #plane_button {
 	position:absolute;
-    	top: 63%; left: 55%;
+    	top: 63%; left: 70%;
 	background: none;
 	color: #00802b;
 	font-size : 13.4pt;
