@@ -17,16 +17,185 @@ function playsound(){
 	}	
 }
 
-function pausesound(){
-	document.getElementById('audio').pause();
-}
-
 var loopCount = 0;
 document.getElementById('myaudio').addEventListener('timeupdate', function() {
     if (this.currentTime == 0)
-        ++loopCount;
-    
+        ++loopCount;   
 });
+
+function revealMessage2(){
+	document.getElementById("shiloh2_def1").style.display = 'block';
+	
+	var delay = 3200; 
+	setTimeout(function() {
+	  document.getElementById("shiloh2_def2").style.display = 'block';
+	}, delay);
+	
+	var delay = 5500; 
+	setTimeout(function() {
+	  document.getElementById("shiloh2_def3").style.display = 'block';
+	}, delay);
+	
+	
+	var delay = 9200; 
+	setTimeout(function() {
+	  document.getElementById("shiloh21").style.display = 'block';
+	}, delay);
+	
+	delay = 10300; 
+	setTimeout(function() {
+	  document.getElementById("shiloh22").style.display = 'block';
+	}, delay);
+	
+
+	delay = 12800; 
+	setTimeout(function() {
+	  document.getElementById("shiloh23").style.display = 'block';
+	  document.getElementById("time1").style.display = 'block';
+	}, delay);
+	
+	delay = 15900; 
+	setTimeout(function() {
+	  document.getElementById("shiloh24").style.display = 'block';
+	}, delay);
+	
+	
+	delay = 18500; 
+	setTimeout(function() {
+	  document.getElementById("shiloh211").style.display = 'block';
+	}, delay);
+	
+	delay = 19600; 
+	setTimeout(function() {
+	  document.getElementById("shiloh222").style.display = 'block';
+	}, delay);
+	
+	delay = 22100; 
+	setTimeout(function() {
+	  document.getElementById("shiloh233").style.display = 'block';
+	}, delay);
+	
+	delay = 25200; 
+	setTimeout(function() {
+	  document.getElementById("shiloh244").style.display = 'block';
+	}, delay);
+	
+	
+	delay = 29700; 
+	setTimeout(function() {
+	  document.getElementById("_planes").style.display = 'block';
+	}, delay);	
+	delay = 30200; 
+	setTimeout(function() {
+	  document.getElementById("shiloh28").style.display = 'block';
+	}, delay);	
+	delay = 31000; 
+	setTimeout(function() {
+	  document.getElementById("shiloh29").style.display = 'block';
+	}, delay);	
+	delay = 31800; 
+	setTimeout(function() {
+	  document.getElementById("shiloh30").style.display = 'block';
+	}, delay);	
+	delay = 32600; 
+	setTimeout(function() {
+	  document.getElementById("shiloh31").style.display = 'block';
+	}, delay);	
+	delay = 33400; 
+	setTimeout(function() {
+	  document.getElementById("shiloh32").style.display = 'block';
+	}, delay);	
+	delay = 40000; 
+	setTimeout(function() {
+	  document.getElementById("_planes").style.display = 'none';
+	  document.getElementById("shiloh28").style.display = 'none';
+	  document.getElementById("shiloh29").style.display = 'none';
+	  document.getElementById("shiloh30").style.display = 'none';
+	  document.getElementById("shiloh31").style.display = 'none';
+	  document.getElementById("shiloh32").style.display = 'none';
+	  document.getElementById("time1").style.display = 'none';
+	}, delay); 		
+
+	delay = 41800; 
+	setTimeout(function() {
+	  document.getElementById("time2").style.display = 'block';
+	}, delay);	
+	
+	
+	delay = 50000; 
+	setTimeout(function() {
+	  document.getElementById("_moon").style.display = 'block';
+	}, delay);	
+	delay = 50500; 
+	setTimeout(function() {
+	  document.getElementById("its").style.display = 'block';
+	}, delay);	
+	delay = 51200; 
+	setTimeout(function() {
+	  document.getElementById("all").style.display = 'block';
+	}, delay);	
+	delay = 52000; 
+	setTimeout(function() {
+	  document.getElementById("over").style.display = 'block';
+	}, delay);	
+	delay = 52800; 
+	setTimeout(function() {
+	  document.getElementById("now").style.display = 'block';
+	}, delay);	
+	delay = 58200; 
+	setTimeout(function() {
+	  document.getElementById("_moon").style.display = 'none';
+	  document.getElementById("its").style.display = 'none';
+	  document.getElementById("all").style.display = 'none';
+	  document.getElementById("over").style.display = 'none';
+	  document.getElementById("now").style.display = 'none';
+	  document.getElementById("time2").style.display = 'none';
+	}, delay); 	
+	
+	
+	delay = 62500; 
+	setTimeout(function() {
+	  document.getElementById("time3").style.display = 'block';
+	}, delay);	
+	
+	delay = 67500; 
+	setTimeout(function() {
+	  document.getElementById("overr").style.display = 'block';
+	}, delay);	
+	
+	
+	delay = 79000; 
+	setTimeout(function() {
+	  document.getElementById("dream_red").style.display = 'block';
+	}, delay);	
+	delay = 79400; 
+	setTimeout(function() {
+	  document.getElementById("youll").style.display = 'block';
+	}, delay);	
+	delay = 79800; 
+	setTimeout(function() {
+	  document.getElementById("be").style.display = 'block';
+	}, delay);	
+	delay = 80200; 
+	setTimeout(function() {
+	  document.getElementById("oright").style.display = 'block';
+	}, delay);	
+	delay = 80600; 
+	setTimeout(function() {
+	  document.getElementById("intime").style.display = 'block';
+	}, delay);	
+	delay = 88500; 
+	setTimeout(function() {
+	  document.getElementById("dream_red").style.display = 'none';
+	  document.getElementById("youll").style.display = 'none';
+	  document.getElementById("be").style.display = 'none';
+	  document.getElementById("oright").style.display = 'none';
+	  document.getElementById("intime").style.display = 'none';
+	  document.getElementById("time3").style.display = 'none';
+	  document.getElementById("overr").style.display = 'none';
+	}, delay); 
+}
+
 
 function revealMessage(){
 	document.getElementById("i_know_u_so_well").style.display = 'block';
