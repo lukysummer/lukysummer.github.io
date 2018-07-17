@@ -65,7 +65,6 @@
 	width : 100%;
 	height : 100%;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104558), auto;
-	font-size:15pt;
 	overflow: hidden;
 }
 
@@ -73,9 +72,8 @@
 	padding-left: 52%;
 	padding-right: 3%;
 	padding-top: 1.5%;
-	color: midnightblue;
 	-webkit-animation: fadeinout 4s forwards;
-	font-weight: bold;
+	font-size: 15pt;
 }
 
 #sound {
@@ -606,40 +604,55 @@
 }
 
 
-
 #intro_button {
 	background: none;
-	color: blue;
-	padding: 3px;
+	color: white;
+	border: 1.5px solid white;
+	padding: 4px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
-	font: 15px arial, sans-serif;
-	font-weight: bold;
-}
-
-#intro_button:hover {
+	font-size: 13.4px;
+	font-style: bold;
+}#intro_button:hover {
 	background: linear-gradient(darkred, midnightblue);
 	color:gold;
 	border: 1px solid gold;
 }
 
 
-
-
 #luky_button {
 	position:absolute;
-    top: 86%;  left: 44.5%;
+    top: 87%;  left: 44.5%;
 	background: none;
 	color:  blue;
 	padding: 3px;
-	font-size: 15px ;
+	font-size: 13.8pt ;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
-	font-weight: bold;
-}
-
-#luky_button:hover {
+}#luky_button:hover {
 	background: linear-gradient(skyblue, darkblue);
 	color: bisque;
 }
+
+#lukyluky{
+	font-size: 12pt;
+	position:absolute;
+	top: 89.2%;
+    left: 32.5%;
+	-webkit-animation: fadeinout2 4s linear infinite;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;	
+}
+
+@-webkit-keyframes fadeinout2 {
+   0% {
+    opacity:0;
+  }
+  50% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
 
 #video_credit{
 	color: white;
@@ -661,10 +674,10 @@
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
 }
 
-#moon_back_button {
+#moon_play {
 	background: black;
 	color: white;
-	font-size : 9pt;
+	font-size : 14pt;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
 }
 
@@ -789,27 +802,6 @@
 	top: 56%;
     left: 83.7%;
 	-webkit-animation: fadeinout 4s linear forwards;
-}
-
-#lukyluky{
-	font-size: 12pt;
-	position:absolute;
-	top: 88.5%;
-    left: 22%;
-	-webkit-animation: fadeinout2 4s linear forwards;
-	animation-iteration-count: 1000000000;
-}
-
-@-webkit-keyframes fadeinout2 {
-   0% {
-    opacity:0;
-  }
-  50% {
-    opacity:1;
-  }
-  100% {
-    opacity:0;
-  }
 }
 
 /* SHILOH VOL.2 PAGE */
