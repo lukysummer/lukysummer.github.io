@@ -1,0 +1,63 @@
+<DOCTYPE! html>
+<html>
+<head>
+	<link rel = "stylesheet" href = "styleee.css">
+	<script src = "js/main.js"></script>
+</head>
+
+<body style="margin: 0;">
+	<style type="text/css"></style>
+	
+	<div id = "ml_page">
+		<div id = 'title'>
+			<p>Ｐｏｌｙｎｏｍｉａｌ　Ｌｉｎｅａｒ　Ｒｅｇｒｅｓｓｉｏｎ<br></p>
+		</div>
+		<br>
+		<div id="data">
+			<p>ＲＡＷ　ＤＡＴＡ</p>
+			<img src = 'data_PLR.png' border='3'></img>
+		</div>
+		<div id = 'body'>
+			❀ Ｐｏｌｙｎｏｍｉａｌ　Ｌｉｎｅａｒ　Ｒｅｇｒｅｓｓｉｏｎ　Ｅｑｕａｔｉｏｎ： <br><br>
+			<span id='eqn'>ｙ<sub>ｉ</sub>　＝　ｂ<sub>０</sub>　＋　ｂ<sub>１</sub>ｘ<sub>ｉ</sub>　＋　ｂ<sub>２</sub>ｘ<sub><span id=power>２</span>i</sub>　
+			＋．．．＋　ｂ<sub>ｎ</sub>ｘ<sub><span id=power>ｎ</span>ｉ</sub></span>
+			
+			<br><br><br>❀ Ｓｃｅｎａｒｉｏ： <br><br><span id='scen'>As a data scientist in HR department, you are given a dataset 
+			containing info of 10 employees in your company, with each employee's position level and current salary.
+			By analyzing this data, you are asked to find the relationship between an employee's position level and salary. 
+			By doing so, you must also construct an algorithm to <b>estimate a salary to be offered to a new hire 
+			according to her/his assigned position level in the company.</b> </span>
+			
+			<br><br><br>❀ Ａｐｐｒｏａｃｈ：　<span id='scen'>
+			<br><br>&nbsp;✣  *Polynomial of <b>degree 4</b> was chosen.
+			
+			<br><br>&nbsp;✣  1. For data preprocessing, the x column (Position Level),[x<sub>1</sub>,...,x<sub>10</sub>] was transformed into n exponential
+			columns of [x<sub>1</sub>, ...,x<sub>10</sub>],	[x<sub>1</sub><span id=power2>2</span>,...,x<sub>10</sub><span id=power2>2</span>],
+			[x<sub>1</sub><span id=power2>3</span>,...,x<sub>10</sub><span id=power2>3</span>],
+			[x<sub>1</sub><span id=power2>4</span>,...,x<sub>10</sub><span id=power2>4</span>].
+			
+			<br><br>&nbsp;✣  2. With the processed data, <b>Multiple Linear Regression</b> was performed with the n exponential x terms and Salary for all
+			10 data points (Splitting the data into train & test set was not performed, since there were only 10 datapoints). 
+			
+			<br><br>&nbsp;✣ Independent Variable(x): <b>Position Level</b>
+			<br>&nbsp;✣ Dependent Variable(y): <b>Salary</b></span>
+			
+			<br><br><br>❀ Ｐｙｔｈｏｎ　Ｃｌａｓｓｅｓ　Ｕｓｅｄ： <br> <span id=classes>
+			<br>&nbsp;✣ (from sklearn.preprocessing) <b>PolynomialFeatures</b>
+			<br>&nbsp;✣ (from sklearn.linear_model) <b>LinearRegression</b></span>
+			
+			<br><br><br>❀ Ｒ　Ｐａｃｋａｇｅｓ／Ｃｌａｓｓｅｓ　Ｕｓｅｄ： <br> <span id=classes>
+			<br>&nbsp;✣ <b>lm</b>
+			<br>&nbsp;✣ <b>ggplot2</b></span>
+			
+			<br><br><br>❀ Ｉｍｐｌｅｍｅｎｔａｔｉｏｎ　ｉｎ　Ｐｙｔｈｏｎ　＆　Ｒ： <br><br> 
+			<span id='run'> <b>*Try running the Python code & insert the new employee's position level in the company to get an estimate of the Salary!*</b></span><br><br>
+			<a id='scen' href = "https://github.com/lukysummer/Polynomial-Linear-Regression" target="_blank">https://github.com/lukysummer/Polynomial-Linear-Regression</a>
+		
+			<br><br><br>❀ ＲＥＳＵＬＴＳ：　<br><br> <img src='poly_graph.png'></img>
+			<br><br><span id='scen'>The graph above shows the scatter plot of the raw datapoints (red dots) & the polynomial linear regression curve 
+			(blue line). One can observe the exponentially increase in Salary with asceding Position Level. </span><br><br><br><br>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<DOCTYPE! html>
+<html>
+<head>
+	<link rel = "stylesheet" href = "styleee.css">
+	<script src = "js/main.js"></script>
+</head>
+
+<body style="margin: 0;">
+	<style type="text/css"></style>
+	
+	<div id = "ml_page">
+		<div id = 'title'>
+			<p>Ｓｕｐｐｏｒｔ　Ｖｅｃｔｏｒ　Ｒｅｇｒｅｓｓｉｏｎ<br></p>
+		</div>
+		<br>
+		<div id="data">
+			<p>ＲＡＷ　ＤＡＴＡ</p>
+			<img src = 'data_PLR.png' border='3'></img>
+		</div>
+		<div id = 'body'>
+			❀ Ｂｅｓｔ　Ｔｕｔｏｒｉａｌｓ　ｏｎ　Ｓｕｐｐｏｒｔ　Ｖｅｃｔｏｒ　Ｍａｃｈｉｎｅ： <br><br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id=smallest href = "https://www.youtube.com/watch?v=_PwhiWxHK8" target="_blank">https://www.youtube.com/watch?v=_PwhiWxHK8</a>
+			<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id=smallest href = "http://cs229.stanford.edu/notes/cs229-notes3.pdf" target="_blank">http://cs229.stanford.edu/notes/cs229-notes3.pdf</a>
+			
+			<br><br><br>❀ Ｓｃｅｎａｒｉｏ： <br><br><span id='scen'>As a data scientist in HR department, you are given a dataset 
+			containing info of 10 employees in your company, with each employee's position level and current salary.
+			By analyzing this data, you are asked to find the relationship between an employee's position level and salary. </span>
+			
+			<br><br><br>❀ Ｄａｔａ　Ｐｒｅｐｒｏｃｅｓｓｉｎｇ：　<span id='scen'>
+			<br><br>&nbsp;1. For <b>Python</b> implementation of SVR, <b>Feature Scaling</b> was performed on both x & y features since it is not 
+			built in the SVR class. It removed the mean of the features and scaled the entries according to the variance of each entry compared to the mean.
+			
+			<br><br><br>❀ Ｐｙｔｈｏｎ　Ｃｌａｓｓｅｓ　Ｕｓｅｄ： <br> <span id='scen'>
+			<br>&nbsp;✣ (from sklearn.preprocessing) <b>StandardScaler</b>
+			<br>&nbsp;✣ (from sklearn.svm) <b>SVR</b></span>
+			
+			<br><br><br>❀ Ｒ　Ｐａｃｋａｇｅｓ／Ｃｌａｓｓｅｓ　Ｕｓｅｄ： <br> <span id='scen'>
+			<br>&nbsp;✣ <b>e1071</b>
+			<br>&nbsp;✣ <b>svm</b>
+			<br>&nbsp;✣ <b>ggplot2</b></span>
+			
+			<br><br><br>❀ Ｉｍｐｌｅｍｅｎｔａｔｉｏｎ　ｉｎ　Ｐｙｔｈｏｎ　＆　Ｒ： <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a id=smallest href = "https://github.com/lukysummer/Support-Vector-Regression" target="_blank">https://github.com/lukysummer/Support-Vector-Regression</a>
+			
+			<br><br><br>❀ ＲＥＳＵＬＴＳ：　<br><br> <img src='SVR_graph.png'></img>
+			<br><br><span id='scen'>The graph above shows the scatter plot of the raw datapoints (red dots) & the support vector regression curve 
+			(blue line). The blue curve seems to well-represent all the raw data points except the last one with the highest salary. This is because
+			the <b>SVR model seems to assume that the last point is an outlier, thus giving it a big penalty in the SVR optimization objective</b>. 
+			The model detects that the last point has a too-large y-value that strays away from the observed trend of the previous nine data points. 
+			<b>This could be the case because the dataset is extremely small (with only 10 data points)</b>. Thus, it can be concluded that the SVR 
+			model is not an optimal model for this particular dataset with too few points. It could perform better with a bigger dataset that contains 
+			more points that support the trend of exponentially inrease in y with linear increase in x. 
+			</span><br><br><br><br>
+		</div>
+	</div>
+</body>
+</html>

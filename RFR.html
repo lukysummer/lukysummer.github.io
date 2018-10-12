@@ -1,0 +1,59 @@
+<DOCTYPE! html>
+<html>
+<head>
+	<link rel = "stylesheet" href = "styleee.css">
+	<script src = "js/main.js"></script>
+</head>
+
+<body style="margin: 0;">
+	<style type="text/css"></style>
+	
+	<div id = "ml_page">
+		<div id = 'title'>
+			<p>Ｒａｎｄｏｍ　Ｆｏｒｅｓｔ<br></p>
+		</div>
+		<br>
+		<div id="data">
+			<p>ＲＡＷ　ＤＡＴＡ</p>
+			<img src = 'data_PLR.png' border='3'></img>
+		</div>
+		<div id = 'body'>
+			❀ Ｒａｎｄｏｍ　Ｆｏｒｅｓｔ　Ｒｅｇｒｅｓｓｉｏｎ　Ｐｒｏｃｅｄｕｒｅ：<br><br><span id='scen'>
+		    1) Pick an attribute x<sub>i</sub> with the <b>biggest IG(Y, x<sub>i</sub>).</b></span>
+			<br> <span id='scen'>2) Split data points into groups based on the split value of the attribute:
+			<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 if (group is empty): return the parent group's mean y-value
+			<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 if (group has n data points of ALL same class): return the group's mean y-value</span>
+
+			<br><br><br>❀ Ｓｃｅｎａｒｉｏ： <br><br><span id='scen'>As a data scientist in HR department, you are given a dataset 
+			containing info of 10 employees in your company, with each employee's position level and current salary.
+			By analyzing this data, you are asked to find the relationship between an employee's position level and salary. </span>
+			
+			<br><br><br>❀ Ｐｙｔｈｏｎ　Ｃｌａｓｓｅｓ　Ｕｓｅｄ： <br> <span id=classes>
+			<br>&nbsp;✣ (from sklearn.emsemble) <b>RandomForestRegressor</b></span>
+			
+			<br><br><br>❀ Ｒ　Ｐａｃｋａｇｅｓ／Ｃｌａｓｓｅｓ　Ｕｓｅｄ： <br> <span id=classes>
+			<br>&nbsp;✣ <b>rpart</b>
+			<br>&nbsp;✣ <b>ggplot2</b></span>
+			
+			<br><br><br>❀ Ｉｍｐｌｅｍｅｎｔａｔｉｏｎ　ｉｎ　Ｐｙｔｈｏｎ　＆　Ｒ： <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<span id='run'> <b>*Try running the Python code & insert the new employee's position level in the company to get an estimate of the Salary!*</b></span><br><br>
+			<a id=smallest href = "https://github.com/lukysummer/Decision-Tree-Regression" target="_blank">https://github.com/lukysummer/Decision-Tree-Regression</a>
+			
+			<br><br><br>❀ ＲＥＳＵＬＴＳ：　<br><br> <img src='DTR_graph.png'></img>
+			<br><br><span id='scen'>The graph above shows the scatter plot of the raw datapoints (red dots) & the decision tree regression lines 
+			(blue line) using Python. The steps in the regression lines represent the mean salary values for each final branch of the decision tree.
+			The steps have ranges of [1,1.5], [1.5,2.5], [2.5,3.5],..., [8.5,9.5], [9,5,10], which seems to have formed for each of the 10 position levels. 
+			Any new salary prediction will be discrete, as one of the 10 step values, according to which of the 10 ranges the new employee's position level fits into.  
+			
+			<br><br><br><br><img src='DT_plot.png' height="400" width="450">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</img><img src='DTR_R.png' height="400" width="480"></img>
+			<br><br><span id='scen'>The above shows the sketch and plot of the decision tree regressor of the dataset using R. 
+			As seen in the sketch, first split was performed at Position Level = 8.5, and the subsequent splits on the 2 child nodes were performed
+            at Position Level = 6.5 & = 9.5. Consequently, according to the mean of the datapoints in each of the 4 leaf nodes, 
+			4 discrete steps of Salary prediction were formed. </span><br><br><br><br>
+		</div>
+	</div>
+</body>
+</html>
