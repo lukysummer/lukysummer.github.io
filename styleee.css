@@ -454,6 +454,20 @@
 	border: 1px solid olive;
 }
 
+#DS_button {
+	position:absolute;
+    top: 23%;  left: 46%;
+	background: none;
+	font-size : 13pt;
+	padding: 7px;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
+	-webkit-animation: highlight_4 20s infinite;
+}
+#peng_button:hover {
+	background: linear-gradient(darkred, midnightblue);
+	border: 1px solid olive;
+}
+
 @keyframes highlight_5 {
   0%, 44% {
     background-color: transparent;
