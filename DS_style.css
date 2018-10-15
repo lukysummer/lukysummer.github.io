@@ -120,6 +120,13 @@ td {
     font-size: 80%;
 }
 
+#power3{
+    position: relative;
+    bottom: 1.1ex; 
+    font-size: 60%;
+}
+
+
 #word {
 	z-index : 1;
 	position : absolute;
