@@ -6,7 +6,8 @@ The contents are inspired by 　❀　Ｖａｐｏｒｗａｖｅ　Ａｅｓｔ
 such as [Moonlight]
 　❀　ａｎｄ　ｍａｎｙ　ｉｎｄｅｐｅｎｄｅｎｔ　ｆｉｌｍｓ　I watched.
 
-This is a taster (made w/ 3D Maya):
+Here's a taster of the feels(made w/ 3D Maya):
+
 <img src = "images/La_Luna.87.png">
 
 <img src = "dream_5.png">
