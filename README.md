@@ -9,6 +9,6 @@ such as [Moonlight](http://moonlight.movie/) and [Call Me By Your Name](https://
 
 Here's a taster of the feels :
 
-<img src = "images/samples.png" width = 50%>
+<img src = "images/samples.png">
 
 ΞＮＪ♢Ｙ！ ッ
