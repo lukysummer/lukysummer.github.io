@@ -52,7 +52,7 @@
 }
 
 #venice_page {
-	background: url(v.gif);
+	background: url(images/v.gif);
 	position : absolute;
 	width : 100%;
 	height : 100%;
@@ -60,7 +60,7 @@
 }
 
 #intro_page {
-	background: url(drea.png);
+	background: url(images/drea.png);
 	position : absolute;
 	width : 100%;
 	height : 100%;
