@@ -675,6 +675,13 @@
 	text-align: center;
 }
 
+#shiloh_audio_button {
+	background: #ffc999;
+	color: white;
+	font-size : 9pt;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
+}
+
 #shiloh_back_button {
 	background: #ffc999;
 	color: white;
