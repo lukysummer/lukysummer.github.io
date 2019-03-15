@@ -598,9 +598,9 @@
 }
 #shiloh2_button {
 	position:absolute;
-    top: 50%; left: 76%;
+        top: 50%; left: 83%;
 	background: none;
-	font-size : 15pt;
+	font-size : 10pt;
 	padding: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
 	-webkit-animation: highlight_9 20s infinite;
