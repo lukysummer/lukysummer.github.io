@@ -172,7 +172,7 @@
 
 #paracosm_page {
 	position : absolute;
-	background: linear-gradient(#6ff7d5, black);
+	background: linear-gradient(#6ff7d5, #26564a);
 	width : 100%;
 	height : 100%;
 	text-align : center;
@@ -220,24 +220,26 @@
 #pronun {
 	font-size: 12pt;
 }
+
 #noun {
-	color: black;
 	font-size: 8.5pt;
 	text-align: center;
 	font-style: italic; 
 }
+
 #definition {
-	color: black;
 	font-size: 13.4pt;
 	text-align: center; 
 }
+
 #space {
 	font-size: 13pt;
-	color: white; 
 }
+
 #bold {
-	text-decoration: underline;  
+	font-style: italic;  
 }
+
 #model {
 	font-size: 8pt;
 	position: absolute;
@@ -349,7 +351,7 @@
     background-color: transparent;
 	color: indianred;
   }9% {
-    background: darkorchid/*#b30000*/;
+    background: #2f285b;
 	color: gold;
 	opacity:0.7;
   }18%, 100% {
@@ -359,7 +361,7 @@
 }
 #paracosm_button {
 	position:absolute;
-    top: 40%; left: 19%;
+        top: 40%; left: 19%;
 	background: none;
 	font-size : 19pt;
 	padding: 7px;
@@ -376,8 +378,8 @@
     background-color: transparent;
 	color: darkslategrey;
   }20% {
-     background: midnightblue;
-	color: grey;
+     background: #2f285b;
+	color: gold;
 	opacity:0.8;
   }29%, 100% {
     background-color: transparent;
@@ -403,7 +405,7 @@
     background-color: transparent;
 	color: #b52ce2;
   }31% {
-    background: deeppink;
+    background: #2f285b;
 	color: gold;
 	opacity:0.7;
   }40%, 100% {
@@ -413,7 +415,7 @@
 }
 #shiloh_button {
 	position:absolute;
-    top: 36%; left: 64%;
+        top: 36%; left: 64%;
 	background: none;
 	font-size : 19pt;
 	padding: 6px;
@@ -431,17 +433,17 @@
     background-color: transparent;
 	color: olive;
   }42% {
-     background:  black;
-	color: red;
+     background:  #2f285b;
+	color: gold;
 	opacity:0.8;
   }51%, 100% {
     background-color: transparent;
-	color: olive;
+	color: red;
   }
 }
 #peng_button {
 	position:absolute;
-    top: 73%;  left: 26%;
+        top: 73%;  left: 26%;
 	background: none;
 	font-size : 16pt;
 	padding: 7px;
@@ -455,7 +457,7 @@
 
 #DS_button {
 	position:absolute;
-    top: 23%;  left: 46%;
+        top: 23%;  left: 46%;
 	background: none;
 	font-size : 13pt;
 	padding: 7px;
@@ -472,8 +474,8 @@
     background-color: transparent;
 	color: darkred;
   }53% {
-     background: darkcyan;
-	color: lightblue;
+     background: #2f285b;
+	color: gold;
 	opacity:0.8;
   }62%, 100% {
     background-color: transparent;
@@ -502,7 +504,7 @@
     background-color: transparent;
 	color: royalblue;
   }64% {
-    background:  #006600;
+    background:  #2f285b;
 	color: gold;
 	opacity:0.8;
   }73%, 100% {
@@ -529,7 +531,7 @@
     background-color: transparent;
 	color: gold;
   }75% {
-    background:  darkblue;
+    background:  #2f285b;
 	color: gold;
 	opacity:0.8;
   }84%, 100% {
@@ -539,7 +541,7 @@
 }
 #moon_button {
 	position:absolute;
-    top: 55%; left: 65%;
+        top: 55%; left: 65%;
 	background: none;
 	font-size : 17pt;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
@@ -555,8 +557,8 @@
     background-color: transparent;
 	color: darkcyan;
   }86% {
-    background:  orange;
-	color: darkred;
+    background:  #2f285b;
+	color: gold;
 	opacity:0.8;
   }95%, 100% {
     background-color: transparent;
@@ -586,8 +588,8 @@
     background-color: transparent;
 	color: olive;
   }96% {
-    background:  salmon;
-	color: brown;
+    background:  #2f285b;
+	color: gold;
 	opacity:0.8;
   }100% {
     background-color: transparent;
