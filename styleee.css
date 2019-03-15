@@ -388,7 +388,7 @@
 }
 #plane_button {
 	position:absolute;
-    top: 65%; left: 46%;
+        top: 65%; left: 46%;
 	background: none;
 	font-size : 15pt;
 	padding: 7.5px;
@@ -541,7 +541,7 @@
 }
 #moon_button {
 	position:absolute;
-        top: 55%; left: 65%;
+        top: 60%; left: 35%;
 	background: none;
 	font-size : 17pt;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
