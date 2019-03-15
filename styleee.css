@@ -250,8 +250,8 @@
 
 #shiloh_def1 {
 	background: white;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: white;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: white;
 	font-size: 14pt;
 	text-align: center;
 	opacity:0.8;
@@ -259,8 +259,8 @@
 
 #shiloh_def2 {
 	background: -webkit-linear-gradient(#595858, #161616);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 	font-size: 14pt;
 	text-align: center;
 }
@@ -598,7 +598,7 @@
 }
 #shiloh2_button {
 	position:absolute;
-        top: 50%; left: 83%;
+        top: 50%; left: 80%;
 	background: none;
 	font-size : 10pt;
 	padding: 7px;
@@ -650,8 +650,7 @@
 #lukyluky{
 	font-size: 12pt;
 	position:absolute;
-	top: 89.2%;
-        left: 40%;
+	top: 89.2%; left: 38%;
 	-webkit-animation: fadeinout2 4s linear infinite;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;	
 }
@@ -678,7 +677,7 @@
 #shiloh_audio_button {
 	background: #ffc999;
 	color: white;
-	font-size : 9pt;
+	font-size : 14pt;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
 }
 
@@ -722,8 +721,7 @@
 	color: white;
 	font-size: 10pt;
 	position:absolute;
-	top: 10%;
-    left: 10%;
+	top: 10%; left: 10%;
 	-webkit-animation: fadeinout 4s linear forwards;
 }
 
@@ -732,7 +730,7 @@
 	font-size: 15pt;
 	position:absolute;
 	top: 18%;
-    left: 20%;
+        left: 20%;
 	-webkit-animation: fadeinout 4s linear forwards;
 }
 
