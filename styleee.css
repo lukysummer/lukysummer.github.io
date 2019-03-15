@@ -484,7 +484,7 @@
 }
 #dream_button {
 	position:absolute;
-        top: 47%; left: 40%;
+        top: 48%; left: 42%;
 	background: none;
 	font-size : 15pt;
 	padding: 7px;
@@ -542,14 +542,15 @@
 #moon_button {
 	position:absolute;
         top: 61%; left: 38%;
-	background: none;
+	background: linear-gradient(#07102c, #1a3fb2);
+	border: 1px solid gold;
 	font-size : 17pt;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
 	-webkit-animation: highlight_7 20s infinite;
 }
 #moon_button:hover {
 	background: linear-gradient(#07102c, #1a3fb2);
-	border: 1px solid gold;
+	border: 2px solid gold;
 }
 
 @keyframes highlight_8 {
