@@ -350,15 +350,30 @@
 	position: absolute;
         top: 40%; left: 19%;
 	background: linear-gradient(#4d0000, red);
-	border: 2.5px solid indianred;
-	color: orange
+	border: 1px solid indianred;
+	color: orange;
 	font-size : 18pt;
 	padding: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
 }
 #paracosm_button:hover {
 	background: linear-gradient(#4d0000, red);
-	border: 2.5px solid indianred;
+	border: 2.5px solid orange;
+}
+
+#shiloh_button {
+	position: absolute;
+        top: 36%; left: 64%;
+	background: linear-gradient(tan, salmon);
+	border: 1px solid #5e2f00;;
+	color: #5e2f00;
+	font-size : 18pt;
+	padding: 6px;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
+}
+#shiloh_button:hover {
+	background: linear-gradient(tan, salmon);
+	border: 2.5px solid #5e2f00;;
 }
 
 @keyframes highlight_2 {
@@ -387,22 +402,6 @@
 	background: linear-gradient(black, midnightblue);
 	border: 1px solid dimgrey;
 }
-
-#shiloh_button {
-	color: #5e2f00
-	position:absolute;
-        top: 36%; left: 64%;
-	background: linear-gradient(tan, salmon);
-	border: 1px solid burlywood;
-	font-size : 18pt;
-	padding: 6px;
-	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
-}
-#shiloh_button:hover {
-	background: linear-gradient(tan, salmon);
-	border: 2.5px solid burlywood;
-}
-
 
 @keyframes highlight_4 {
   0%, 33% {
@@ -562,9 +561,9 @@
 }
 #shiloh2_button {
 	position:absolute;
-        top: 50%; left: 80%;
+        top: 50%; left: 75%;
 	background: none;
-	font-size : 10pt;
+	font-size : 15pt;
 	padding: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
 	-webkit-animation: highlight_9 20s infinite;
