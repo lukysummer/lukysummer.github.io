@@ -352,7 +352,7 @@
 	color: indianred;
   }9% {
     background: midnightblue;
-	color: #fce464
+	color: gold;
 	opacity:0.7;
   }18%, 100% {
     background-color: transparent;
@@ -379,7 +379,7 @@
 	color: darkslategrey;
   }20% {
      background: midnightblue;
-	color: #fce464
+	color: gold;
 	opacity:0.8;
   }29%, 100% {
     background-color: transparent;
@@ -406,7 +406,7 @@
 	color: #b52ce2;
   }31% {
     background: midnightblue;
-	color: #fce464
+	color: gold;
 	opacity:0.7;
   }40%, 100% {
     background-color: transparent;
@@ -434,7 +434,7 @@
 	color: olive;
   }42% {
      background:  midnightblue;
-	color: #fce464
+	color: gold;
 	opacity:0.8;
   }51%, 100% {
     background-color: transparent;
@@ -475,7 +475,7 @@
 	color: darkred;
   }53% {
      background: midnightblue;
-	color: #fce464
+	color: gold;
 	opacity:0.8;
   }62%, 100% {
     background-color: transparent;
@@ -505,7 +505,7 @@
 	color: royalblue;
   }64% {
     background:  midnightblue;
-	color: #fce464
+	color: gold;
 	opacity:0.8;
   }73%, 100% {
     background-color: transparent;
@@ -532,7 +532,7 @@
 	color: gold;
   }75% {
     background:  midnightblue;
-	color: #fce464
+	color: gold;
 	opacity:0.8;
   }84%, 100% {
     background-color: transparent;
@@ -558,7 +558,7 @@
 	color: darkcyan;
   }86% {
     background:  midnightblue;
-	color: #fce464
+	color: gold;
 	opacity:0.8;
   }95%, 100% {
     background-color: transparent;
@@ -589,7 +589,7 @@
 	color: olive;
   }96% {
     background: midnightblue;
-	color: #fce464;
+	color: gold;
 	opacity:0.8;
   }100% {
     background-color: transparent;
