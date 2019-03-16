@@ -369,16 +369,16 @@
 #shiloh_button {
 	position: absolute;
         top: 36%; left: 64%;
-	background: linear-gradient(tan, salmon);
-	border: 1px solid lightcoral;
+	background: linear-gradient(papayawhip, peachpuff);
+	border: 1px solid peru;
 	font-size : 25pt;
 	padding-top: 0px; padding-bottom: 7px; padding-left: 7px; padding-right: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
 	opacity: 0.9;
 }
 #shiloh_button:hover {
-	background: linear-gradient(tan, salmon);
-	border: 2px solid lightcoral;
+	background: linear-gradient(papayawhip, peachpuff);
+	border: 2px solid peru;
 	opacity: 1;
 }
 
@@ -408,7 +408,7 @@
 	background: linear-gradient(lightcyan, #87cefa);
 	border: 1px solid #1c86ed;
 	color: #1c86ed;
-	font-size : 25pt;
+	font-size : 20pt;
 	padding: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
 	opacity: 0.9;
@@ -456,7 +456,7 @@
 	background: linear-gradient(lavenderblush, lightpink);
 	border: 1px solid palevioletred;
 	color: palevioletred;
-	font-size : 25pt;
+	font-size : 20pt;
 	padding: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
 }
