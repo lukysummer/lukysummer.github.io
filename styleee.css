@@ -347,40 +347,40 @@
 }
 
 
-/* RED */
+/* BLUE */
 #paracosm_button {
 	position: absolute;
         top: 40%; left: 19%;
-	background: linear-gradient(#ffcccc, #ff1a1a);
-	border: 1px solid #800000;
-	color: #800000;
+	background: linear-gradient(#ccddff, #4d88ff);
+	border: 1px solid #003cb3;
+	color: #003cb3;
 	font-size : 17pt;
 	padding: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
 	opacity: 0.9;
 }
 #paracosm_button:hover {
-	background: linear-gradient(#ffcccc, #ff1a1a);
-	border: 2px solid #800000;
+	background: linear-gradient(#ccddff, #4d88ff);
+	border: 2px solid #003cb3;
 	opacity: 1;
 }
 
 
-/* ORANGE */
+/* PINK */
 #shiloh_button {
 	position: absolute;
         top: 36%; left: 64%;
-	background: linear-gradient(#ffeddd, #f9b272);
-	border: 1px solid #f77807;
-	color: #f77807;
+	background: linear-gradient(lavenderblush, lightpink);
+	border: 1px solid palevioletred;
+	color: palevioletred;
 	font-size : 25pt;
 	padding-top: 0px; padding-bottom: 7px; padding-left: 7px; padding-right: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
 	opacity: 0.9;
 }
 #shiloh_button:hover {
-	background: linear-gradient(#ffeddd, #f9b272);
-	border: 2px solid #f77807;
+	background: linear-gradient(lavenderblush, lightpink);
+	border: 2px solid palevioletred;
 	opacity: 1;
 }
 
@@ -392,7 +392,7 @@
 	background: linear-gradient(#07102c, #1a3fb2);
 	border: 1px solid gold;
 	color: gold;
-	font-size : 17pt;
+	font-size : 19pt;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
 	opacity: 0.9;
 }
@@ -403,40 +403,40 @@
 }
 
 
-/* LIGHT BLUE */
+/* BLUE */
 #dream_button {
 	position: absolute;
         top: 48%; left: 42%;
-	background: linear-gradient(lavender, #9dd0e1);
-	border: 1px solid #0080ff;
-	color: #0080ff;
+	background: linear-gradient(#ccddff, #4d88ff);
+	border: 1px solid #003cb3;
+	color: #003cb3;
 	font-size : 15pt;
 	padding: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
 	opacity: 0.9;
 }
 #dream_button:hover {
-	background: linear-gradient(lavender, #9dd0e1);
-	border: 2px solid #0080ff;
+	background: linear-gradient(#ccddff, #4d88ff);
+	border: 2px solid #003cb3;
 	opacity: 1;
 }
 
 
-/* YELLOW */
+/* BLUE */
 #venice_button {
 	position: absolute;
         top: 77%; left: 57%;
-	background: linear-gradient(#ffffcc, #ffff1a);
-	border: 1px solid #666600;
-	color: #666600;
+	background: linear-gradient(#ccddff, #4d88ff);
+	border: 1px solid #003cb3;
+	color: #003cb3;
 	font-size: 15pt;
 	padding: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
 	opacity: 0.8;
 }
 #venice_button:hover {
-	background: linear-gradient(#ffffcc, #ffff1a);
-	border: 2px solid #666600;
+	background: linear-gradient(#ccddff, #4d88ff);
+	border: 2px solid #003cb3;
 	opacity: 1;
 }
 
@@ -461,59 +461,59 @@
 }
 
 
-/* PURPLE */
+/* PINK */
 #plane_button {
 	position:absolute;
-        top: 65%; left: 46%;
-	background: linear-gradient(#f2ccff, #d966ff);
-	border: 1px solid #8600b3;
-	color: #8600b3;
+        top: 65%; left: 57%;
+	background: linear-gradient(lavenderblush, lightpink);
+	border: 1px solid palevioletred;
+	color: palevioletred;
 	font-size: 15pt;
 	padding: 7.5px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
 	opacity: 0.9;
 }
 #plane_button:hover {
-	background: linear-gradient(#f2ccff, #d966ff);
-	border: 2px solid #8600b3;
+	background: linear-gradient(lavenderblush, lightpink);
+	border: 2px solid palevioletred;
 	opacity: 1;
 }
 
 
-/* GREY */
+/* BLUE */
 #peng_button {
 	position:absolute;
         top: 73%;  left: 26%;
-	background: linear-gradient(#f5f5ef, #baba91);
-	border: 1px solid #6e6e45;
-	color: #6e6e45;
+	background: linear-gradient(#ccddff, #4d88ff);
+	border: 1px solid #003cb3;
+	color: #003cb3;
 	font-size : 16pt;
 	padding: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
 	opacity: 0.9;
 }
 #peng_button:hover {
-	background: linear-gradient(#f5f5ef, #baba91);
-	border: 2px solid #6e6e45;
+	background: linear-gradient(#ccddff, #4d88ff);
+	border: 2px solid #003cb3;
 	opacity: 1;
 }
 
 
-/* GREEN */
+/* PINK */
 #poem_button {
 	position:absolute;
         top: 56%; left: 10%;
-	background: linear-gradient(#ccffe6, #1aff8c);
-	border: 1px solid #008040;
-	color: #008040;
+	background: linear-gradient(lavenderblush, lightpink);
+	border: 1px solid palevioletred;
+	color: palevioletred;
 	font-size : 15pt;
 	padding: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
 	opacity: 0.9;
 }
 #poem_button:hover {
-	background: linear-gradient(#ccffe6, #1aff8c);
-	border: 2px solid #008040;
+	background: linear-gradient(lavenderblush, lightpink);
+	border: 2px solid palevioletred;
 	opacity: 1;
 }
 
