@@ -404,7 +404,7 @@
         top: 48%; left: 42%;
 	background: linear-gradient(#add8e6, #87cefa);
 	border: 1px solid dodgerblue;
-	color: white;
+	color: dodgerblue;
 	font-size : 15pt;
 	padding: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
@@ -542,32 +542,21 @@
 #vol2 {
 	font-size:9pt;
 }
-@keyframes highlight_9 {
-  0%, 89% {
-    background-color: transparent;
-	color: olive;
-  }96% {
-    background: midnightblue;
-	color: gold;
-	opacity:0.8;
-  }100% {
-    background-color: transparent;
-	color: olive;
-  }
-}
+
 #shiloh2_button {
 	position:absolute;
         top: 50%; left: 75%;
-	background: none;
+	background: linear-gradient(lavenderblush, lightpink);
+	border: 1px solid palevioletred;
+	color: palevioletred;
 	font-size : 15pt;
 	padding: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
-	-webkit-animation: highlight_9 20s infinite;
 }
 
 #shiloh2_button:hover {
-	background: linear-gradient(#4d0000, salmon);
-	border: 1px solid burlywood;
+	background: linear-gradient(lavenderblush, lightpink);
+	border: 2px solid palevioletred;
 }
 
 #me {
