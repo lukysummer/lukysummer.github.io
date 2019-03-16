@@ -350,9 +350,9 @@
 #paracosm_button {
 	position: absolute;
         top: 40%; left: 19%;
-	background: linear-gradient(mistyrose, red);
-	border: 1px solid indianred;
-	color: darkslategrey;
+	background: linear-gradient(#07102c, #1a3fb2);
+	border: 1px solid gold;
+	color: gold;
 	font-size : 17pt;
 	padding: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
@@ -369,9 +369,10 @@
 #shiloh_button {
 	position: absolute;
         top: 36%; left: 64%;
-	background: linear-gradient(papayawhip, peachpuff);
-	border: 1px solid peru;
-	font-size : 25pt;
+	background: linear-gradient(#07102c, #1a3fb2);
+	border: 1px solid gold;
+	color: gold;
+	font-size : 17pt;
 	padding-top: 0px; padding-bottom: 7px; padding-left: 7px; padding-right: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
 	opacity: 0.9;
@@ -405,10 +406,10 @@
 #dream_button {
 	position: absolute;
         top: 48%; left: 42%;
-	background: linear-gradient(lightcyan, #87cefa);
-	border: 1px solid #1c86ed;
-	color: #1c86ed;
-	font-size : 20pt;
+	background: linear-gradient(#07102c, #1a3fb2);
+	border: 1px solid gold;
+	color: gold;
+	font-size : 17pt;
 	padding: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
 	opacity: 0.9;
@@ -435,9 +436,9 @@
 #venice_button {
 	position: absolute;
         top: 77%; left: 57%;	
-	background: linear-gradient(#f7d6aa, orange);
-	border: 1px solid lightsalmon;
-	color: cornsilk;
+	background: linear-gradient(#07102c, #1a3fb2);
+	border: 1px solid gold;
+	color: gold;
 	font-size : 15pt;
 	padding: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
@@ -453,10 +454,10 @@
 #shiloh2_button {
 	position:absolute;
         top: 50%; left: 75%;
-	background: linear-gradient(lavenderblush, lightpink);
-	border: 1px solid palevioletred;
-	color: palevioletred;
-	font-size : 20pt;
+	background: linear-gradient(#07102c, #1a3fb2);
+	border: 1px solid gold;
+	color: gold;
+	font-size : 15pt;
 	padding: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
 }
@@ -466,49 +467,29 @@
 	border: 2px solid palevioletred;
 }
 
-@keyframes highlight_2 {
-  0%, 11% {
-    background-color: transparent;
-	color: darkslategrey;
-  }20% {
-     background: midnightblue;
-	color: gold;
-	opacity:0.8;
-  }29%, 100% {
-    background-color: transparent;
-	color: darkslategrey;
-  }
-}
+
 #plane_button {
 	position:absolute;
         top: 65%; left: 46%;
+	background: linear-gradient(#07102c, #1a3fb2);
+	border: 1px solid gold;
+	color: gold;
 	font-size : 15pt;
 	padding: 7.5px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
-	-webkit-animation: highlight_2 20s infinite;
 }
 #plane_button:hover {
 	background: linear-gradient(black, midnightblue);
 	border: 1px solid dimgrey;
 }
 
-@keyframes highlight_4 {
-  0%, 33% {
-    background-color: transparent;
-	color: olive;
-  }42% {
-     background:  midnightblue;
-	color: gold;
-	opacity:0.8;
-  }51%, 100% {
-    background-color: transparent;
-	color: red;
-  }
-}
+
 #peng_button {
 	position:absolute;
         top: 73%;  left: 26%;
-	background: none;
+	background: linear-gradient(#07102c, #1a3fb2);
+	border: 1px solid gold;
+	color: gold;
 	font-size : 16pt;
 	padding: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
@@ -519,41 +500,16 @@
 	border: 1px solid olive;
 }
 
-#DS_button {
-	position:absolute;
-        top: 23%;  left: 46%;
-	background: none;
-	font-size : 13pt;
-	padding: 7px;
-	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
-	-webkit-animation: highlight_4 20s infinite;
-}
-#peng_button:hover {
-	background: linear-gradient(darkred, midnightblue);
-	border: 1px solid olive;
-}
 
-@keyframes highlight_6 {
-  0%, 55% {
-    background-color: transparent;
-	color: royalblue;
-  }64% {
-    background:  midnightblue;
-	color: gold;
-	opacity:0.8;
-  }73%, 100% {
-    background-color: transparent;
-	color: royalblue;
-  }
-}
 #poem_button {
 	position:absolute;
         top: 56%; left: 10%;
-	background: none;
+	background: linear-gradient(#07102c, #1a3fb2);
+	border: 1px solid gold;
+	color: gold;
 	font-size : 15pt;
 	padding: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
-	-webkit-animation: highlight_6 20s infinite;
 }
 #poem_button:hover {
 	background: linear-gradient(#006600,#330d00);
