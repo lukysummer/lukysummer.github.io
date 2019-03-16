@@ -17,6 +17,7 @@
 }
 
 #word-title {
+	color: white
 	font-size: 28pt;
 	text-align: center;
 	position: absolute;
@@ -345,10 +346,11 @@
 	top: 91.1%; left: 93.8%;
 }
 
+/* RED */
 #paracosm_button {
 	position: absolute;
         top: 40%; left: 19%;
-	background: linear-gradient(#6ff7d5, darkcyan);
+	background: linear-gradient(mistyrose, red);
 	border: 1px solid indianred;
 	color: darkslategrey;
 	font-size : 17pt;
@@ -357,17 +359,18 @@
 	opacity: 0.9;
 }
 #paracosm_button:hover {
-	background: linear-gradient(#6ff7d5, darkcyan);
+	background: linear-gradient(mistyrose, red);
 	border: 2px solid indianred;
 	opacity: 1;
 }
 
+/* SALMON */
 #shiloh_button {
 	position: absolute;
         top: 36%; left: 64%;
 	background: linear-gradient(tan, salmon);
-	border: 1px solid burlywood;
-	color: darkslategrey;
+	border: 1px solid cornsilk;
+	color: white;
 	font-size : 18pt;
 	padding: 6px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
@@ -375,10 +378,11 @@
 }
 #shiloh_button:hover {
 	background: linear-gradient(tan, salmon);
-	border: 2px solid burlywood;
+	border: 2px solid cornsilk;
 	opacity: 1;
 }
 
+/* DARK BLUE */
 #moon_button {
 	position: absolute;
         top: 61%; left: 38%;
@@ -395,20 +399,21 @@
 	opacity: 1;
 }
 
+/* BLUE */
 #dream_button {
 	position: absolute;
         top: 48%; left: 42%;
-	background: linear-gradient(#E0FFFF, #E0B0FF);
-	border: 1px solid #9370DB;
-	color: darkslategrey;
+	background: linear-gradient(#add8e6, #87cefa);
+	border: 1px solid dodgerblue;
+	color: white;
 	font-size : 15pt;
 	padding: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
 	opacity: 0.9;
 }
 #dream_button:hover {
-	background: linear-gradient(#E0FFFF, #E0B0FF);
-	border: 2px solid #9370DB;
+	background: linear-gradient(#add8e6, #87cefa);
+	border: 2px solid dodgerblue;
 	opacity: 1;
 }
 
@@ -423,20 +428,21 @@
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
 	opacity: 0.8;
 }*/
+/* ORANGE */
 #venice_button {
 	position: absolute;
         top: 77%; left: 57%;	
-	background: linear-gradient(darkred, midnightblue);
-	border: 1px solid grey;
-	color: darkslategrey;
+	background: linear-gradient(#f7d6aa, orange);
+	border: 1px solid lightsalmon;
+	color: cornsilk;
 	font-size : 15pt;
 	padding: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
 	opacity: 0.8;
 }
 #venice_button:hover {
-	background: linear-gradient(darkred, midnightblue);
-	border: 2px solid grey;
+	background: linear-gradient(#f7d6aa, orange);
+	border: 2px solid lightsalmon;
 	opacity: 1;
 }
 
@@ -624,7 +630,6 @@
   }
 }
 
-
 #video_credit{
 	color: white;
 	font-size: 8pt;
@@ -633,7 +638,6 @@
 
 #shiloh_audio_button {
 	background: #ffc999;
-	color: white;
 	font-size : 14pt;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
 }
