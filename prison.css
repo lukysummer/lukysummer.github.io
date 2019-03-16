@@ -26,7 +26,7 @@
 	position:absolute;
 	top:0%; left:0.5%;
 	font-size: 13.8pt;
-	color:skyblue;
+	color: skyblue;
 }
 
 #author {
@@ -73,6 +73,52 @@
 }
 
 
+#one {
+	position: absolute; top:22.5%; left:10%;
+	color: skyblue;
+	font-size: 22pt;
+}
+#two {
+	position: absolute; top:22.5%; left:43.1%;
+	color: skyblue;
+	font-size: 22pt;
+}
+#three {
+	position: absolute; top:22.5%; left:76.5%;
+	color: skyblue;
+	font-size: 22pt;
+}
+#four {
+	position: absolute; top:55.5%; left:10%;
+	color: skyblue;
+	font-size: 22pt;
+}
+#five {
+	position: absolute; top:55.5%; left:43.1%;
+	color: skyblue;
+	font-size: 22pt;
+}
+#six {
+	position: absolute; top:55.5%; left:76.5%;
+	color: skyblue;
+	font-size: 22pt;
+}
+#seven {
+	position: absolute; top:88.5%; left:10%;
+	color: skyblue;
+	font-size: 22pt;
+}
+#eight {
+	position: absolute; top:88.5%; left:43.1%;
+	color: skyblue;
+	font-size: 22pt;
+}
+#nine {
+	position: absolute; top:88.5%; left:76.5%;
+	color: skyblue;
+	font-size: 22pt;
+}
+
 
 /*  DOOR #1  */
 .door1 {
@@ -89,7 +135,7 @@
 .river, .dreams{
 	position:absolute;
 	opacity:0;
-	color: #2e2ed1;
+	color: dodgerblue;
 }
 .river {
 	font-size: 13.4pt;
@@ -121,8 +167,7 @@
 
 /*  DOOR #2  */
 .door2 {
-
-	position:absolute;	
+	position: absolute;	
 	top: 0%;
     left: 44.35%;
 }
@@ -133,22 +178,22 @@
 	animation-iteration-count: 1000000000;
 }
 .of, .letting, .gogh {
-	position:absolute;
+	position: absolute;
 	opacity:0;
 	color: gold;
 }
 .of {
-	font-size: 8pt;
+	font-size: 11pt;
 	top: 5%; left: 10%;
 }
 .letting {
-	font-size: 8pt;
-	top: 54%; left: 30%;
+	font-size: 12pt;
+	top: 48%; left: 14%;
 	transform: rotate3d(0,0,1,-90deg);
 }
 .gogh {
-	font-size: 8.6pt;
-	top: 80%; left: 50%;
+	font-size: 12pt;
+	top: 80%; left: 45%;
 }
 .door2:hover .prison2 {
 	transform: scale3d(0.95,1,1) translate3d(-150px,0,0);
@@ -193,11 +238,11 @@
 	color: olivedrab;
 }
 .to {
-	font-size: 8pt;
+	font-size: 12pt;
 	top: 25%; left: 25%;
 }
 .be {
-	font-size: 8pt;
+	font-size: 12pt;
 	top: 40%; left: 26%;
 }
 .human {
@@ -248,12 +293,12 @@
 	color: #ff6600;
 }
 .so {
-	font-size: 8.6pt;
-	top: 25%; left: 10%;
+	font-size: 11pt;
+	top: 25%; left: 50%;
 }
 .beaut {
-	font-size: 8.6pt;
-	top: 52%; left: 25%;
+	font-size: 11.5pt;
+	top: 52%; left: 5%;
 	/*transform: rotate3d(0,0,1,-180deg);*/
 }
 .door4:hover .prison4 {
@@ -358,16 +403,16 @@
 	color: #a446d2;
 }
 .wonders {
-	font-size: 8.6pt;
-	top: 16%; left: 10%;
+	font-size: 11.5pt;
+	top: 16%; left: 5%;
 	
 }
 .a {
-	font-size: 8.6pt;
+	font-size: 11pt;
 	top: 50%; left: 50%;
 }
 .poem {
-	font-size: 13.6pt;
+	font-size: 13.8pt;
 	top: 60%; left: 42%;
 }
 .door6:hover .prison6 {
@@ -413,16 +458,16 @@
 	color: darkslategrey;
 }
 .doi {
-	font-size: 8.6pt;
+	font-size: 12pt;
 	top: 8%; left: 33%;
 }
 .believe {
-	font-size: 10.5pt;
+	font-size: 13.8pt;
 	top: 36%; left: 30%;
 }
 .in {
-	font-size: 8.6pt;
-	top: 61.5%; left: 81%;
+	font-size: 12pt;
+	top: 50%; left: 71%;
 }
 .door7:hover .prison7 {
 	transform: scale3d(0.95,1,1) translate3d(-150px,0,0);
@@ -464,14 +509,14 @@
 .the, .existence {
 	position:absolute;
 	opacity:0;
-	color: #b30000;
+	color: orangered;
 }
 .the {
-	font-size: 8.6pt;
-	top: 22%; left: 50%
+	font-size: 12pt;
+	top: 22%; left: 45%;
 }
 .existence {
-	font-size: 13.4pt;
+	font-size: 13.8pt;
 	top: 50%; left: 25%;
 }
 .door8:hover .prison8 {
@@ -507,20 +552,20 @@
 }
 .of2, .a2, .poet {
 	position:absolute;
-	color: darkgreen;
+	color: green;
 	opacity:0;
 }
 .of2 {
-	font-size: 8.6pt;
-	top: 20%; left: 20%;
+	font-size: 11pt;
+	top: 15%; left: 15%;
 }
 .a2 {
-	font-size: 8.6pt;
-	top: 40%; left: 22%;
+	font-size: 11.5pt;
+	top: 40%; left: 15%;
 }
 .poet {
-	font-size: 13.7pt;
-	top: 55%; left: 40%;
+	font-size: 13.8pt;
+	top: 60%; left: 40%;
 }
 .door9:hover .prison9 {
 	transform: scale3d(0.95,1,1) translate3d(-150px,0,0);
