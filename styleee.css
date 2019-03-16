@@ -390,14 +390,15 @@
 #moon_button {
 	position: absolute;
         top: 61%; left: 38%;
-	background: linear-gradient(black, midnightblue);
+	/*background: linear-gradient(black, midnightblue);*/
+	background: url(luna.png);
 	border: 1px solid gold;
 	color: gold;
 	font-size: 17pt;
-	padding-bottom: 32px;
+	padding-bottom: 40px;
 	padding-left: 12px;
 	padding-top: 4px;
-	padding-right: 10px;
+	padding-right: 20px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
 	opacity: 0.9;
 }
@@ -531,12 +532,12 @@
 
 
 #intro_button {
-	background: linear-gradient(darkred, midnightblue);
-	border: 1px solid gold;
-	color: gold;
+	background: none;
+	border: 1px solid white;
+	color: white;
 	padding: 4px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
-	font-size: 14px;
+	font-size: 13px;
 	font-style: bold;
 }
 #intro_button:hover {
@@ -548,10 +549,10 @@
 
 #luky_button {
 	position: absolute;
-        top: 88%;  left: 47%;
-	background: linear-gradient(darkred, midnightblue);
-	border: 1px solid gold;
-	color: gold;
+        top: 88%;  left: 46.5%;
+	background: none;
+	border: 1px solid white;
+	color: white;
 	padding: 4px;
 	font-size: 14px ;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
