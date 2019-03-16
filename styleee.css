@@ -364,13 +364,14 @@
 	opacity: 1;
 }
 
+
 /* SALMON */
 #shiloh_button {
 	position: absolute;
         top: 36%; left: 64%;
 	background: linear-gradient(tan, salmon);
 	border: 1px solid lightcoral;
-	font-size : 22pt;
+	font-size : 25pt;
 	padding-top: 0px; padding-bottom: 7px; padding-left: 7px; padding-right: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
 	opacity: 0.9;
@@ -380,6 +381,7 @@
 	border: 2px solid lightcoral;
 	opacity: 1;
 }
+
 
 /* DARK BLUE */
 #moon_button {
@@ -398,6 +400,7 @@
 	opacity: 1;
 }
 
+
 /* BLUE */
 #dream_button {
 	position: absolute;
@@ -405,7 +408,7 @@
 	background: linear-gradient(#add8e6, #87cefa);
 	border: 1px solid dodgerblue;
 	color: dodgerblue;
-	font-size : 15pt;
+	font-size : 25pt;
 	padding: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
 	opacity: 0.9;
@@ -415,6 +418,7 @@
 	border: 2px solid dodgerblue;
 	opacity: 1;
 }
+
 
 /*#venice_button {
 	position: absolute;
@@ -443,6 +447,23 @@
 	background: linear-gradient(#f7d6aa, orange);
 	border: 2px solid lightsalmon;
 	opacity: 1;
+}
+
+
+#shiloh2_button {
+	position:absolute;
+        top: 50%; left: 75%;
+	background: linear-gradient(lavenderblush, lightpink);
+	border: 1px solid palevioletred;
+	color: palevioletred;
+	font-size : 25pt;
+	padding: 7px;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
+}
+
+#shiloh2_button:hover {
+	background: linear-gradient(lavenderblush, lightpink);
+	border: 2px solid palevioletred;
 }
 
 @keyframes highlight_2 {
@@ -543,21 +564,6 @@
 	font-size:9pt;
 }
 
-#shiloh2_button {
-	position:absolute;
-        top: 50%; left: 75%;
-	background: linear-gradient(lavenderblush, lightpink);
-	border: 1px solid palevioletred;
-	color: palevioletred;
-	font-size : 15pt;
-	padding: 7px;
-	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
-}
-
-#shiloh2_button:hover {
-	background: linear-gradient(lavenderblush, lightpink);
-	border: 2px solid palevioletred;
-}
 
 #me {
 	font-size: 7pt;
