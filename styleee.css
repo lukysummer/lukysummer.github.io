@@ -369,15 +369,15 @@
 	position: absolute;
         top: 36%; left: 64%;
 	background: linear-gradient(tan, salmon);
-	border: 1px solid darksalmon;
+	border: 1px solid black;
 	font-size : 22pt;
-	padding: 6px;
+	padding-top: 7px; padding-bottom: 0px; padding-left: 7px; padding-right: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
 	opacity: 0.9;
 }
 #shiloh_button:hover {
 	background: linear-gradient(tan, salmon);
-	border: 2px solid darksalmon;
+	border: 2px solid black;
 	opacity: 1;
 }
 
