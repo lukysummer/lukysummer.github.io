@@ -351,29 +351,94 @@
         top: 40%; left: 19%;
 	background: linear-gradient(#4d0000, red);
 	border: 1px solid indianred;
-	color: orange;
+	color: amber;
 	font-size : 18pt;
 	padding: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
+	opacity: 0.8;
 }
 #paracosm_button:hover {
 	background: linear-gradient(#4d0000, red);
-	border: 2.5px solid orange;
+	border: 2px solid indianred;
+	opacity: 1;
 }
 
 #shiloh_button {
 	position: absolute;
         top: 36%; left: 64%;
 	background: linear-gradient(tan, salmon);
-	border: 1px solid #5e2f00;;
+	border: 1px solid burlywood;
 	color: #5e2f00;
 	font-size : 18pt;
 	padding: 6px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
+	opacity: 0.8;
 }
 #shiloh_button:hover {
 	background: linear-gradient(tan, salmon);
-	border: 2.5px solid #5e2f00;;
+	border: 2px solid burlywood;
+	opacity: 1;
+}
+
+#moon_button {
+	position: absolute;
+        top: 61%; left: 38%;
+	background: linear-gradient(#07102c, #1a3fb2);
+	border: 1px solid gold;
+	color: gold;
+	font-size : 17pt;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
+	opacity: 0.8;
+}
+#moon_button:hover {
+	background: linear-gradient(#07102c, #1a3fb2);
+	border: 2.5px solid gold;
+	opacity: 1;
+}
+
+#dream_button {
+	position: absolute;
+        top: 48%; left: 42%;
+	background: linear-gradient(#7b01b7, #4c8282);
+	border: 1px solid #309c4b;
+	color: #f4bbff;
+	font-size : 15pt;
+	padding: 7px;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
+	opacity: 0.8;
+}
+#dream_button:hover {
+	background: linear-gradient(#7b01b7, #4c8282);
+	border: 2px solid #309c4b;
+	opacity: 1;
+}
+
+/*#venice_button {
+	position: absolute;
+        top: 77%; left: 57%;
+	border: 1px solid goldenrod;
+	background: linear-gradient(#4d0000, salmon);
+	color: #351a00;
+	font-size : 15pt;
+	padding: 7px;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
+	opacity: 0.8;
+}*/
+#venice_button {
+	position: absolute;
+        top: 77%; left: 57%;	
+	background: linear-gradient(darkred, midnightblue);
+	border: 1px solid gold;
+	color: gold;
+	font-size : 15pt;
+	padding: 7px;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
+	opacity: 0.8;
+}
+#venice_button:hover {
+	background: linear-gradient(darkred, midnightblue);
+	border: 2px solid gold;
+	opacity: 1;
 }
 
 @keyframes highlight_2 {
@@ -392,7 +457,6 @@
 #plane_button {
 	position:absolute;
         top: 65%; left: 46%;
-	background: none;
 	font-size : 15pt;
 	padding: 7.5px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
@@ -444,36 +508,6 @@
 	border: 1px solid olive;
 }
 
-@keyframes highlight_5 {
-  0%, 44% {
-    background-color: transparent;
-	color: darkred;
-  }53% {
-     background: midnightblue;
-	color: gold;
-	opacity:0.8;
-  }62%, 100% {
-    background-color: transparent;
-	color: darkred;
-  }
-}
-#dream_button {
-	position:absolute;
-        top: 48%; left: 42%;
-	background: none;
-	font-size : 15pt;
-	padding: 7px;
-	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
-	opacity:0.8;
-	-webkit-animation: highlight_5 20s infinite;
-}
-#dream_button:hover {
-	background: linear-gradient(#440066, darkslategrey);
-	color: gold;
-	border: 1px solid #309c4b;
-	opacity:1;
-}
-
 @keyframes highlight_6 {
   0%, 55% {
     background-color: transparent;
@@ -499,48 +533,6 @@
 #poem_button:hover {
 	background: linear-gradient(#006600,#330d00);
 	border: 1px solid royalblue;
-}
-
-#moon_button {
-	color: gold;
-	position:absolute;
-        top: 61%; left: 38%;
-	background: linear-gradient(#07102c, #1a3fb2);
-	border: 1px solid gold;
-	font-size : 17pt;
-	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
-}
-#moon_button:hover {
-	background: linear-gradient(#07102c, #1a3fb2);
-	border: 2.5px solid gold;
-}
-
-@keyframes highlight_8 {
-  0%, 77% {
-    background-color: transparent;
-	color: darkcyan;
-  }86% {
-    background:  midnightblue;
-	color: gold;
-	opacity:0.8;
-  }95%, 100% {
-    background-color: transparent;
-	color: darkcyan;
-  }
-}
-#venice_button {
-	position:absolute;
-    top: 77%; left: 60%;
-	background: none;
-	font-size : 15pt;
-	padding: 7px;
-	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
-	-webkit-animation: highlight_8 20s infinite;
-}
-#venice_button:hover {
-	background: linear-gradient(#4d0000, salmon);
-	color: bisque;
-	border: 1px solid goldenrod;
 }
 
 #vol2 {
