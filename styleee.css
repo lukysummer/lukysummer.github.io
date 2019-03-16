@@ -406,17 +406,17 @@
 #dream_button {
 	position: absolute;
         top: 48%; left: 42%;
-	background: linear-gradient(lavender, lightblue);
-	border: 2px solid dodgerblue;
-	color: dodgerblue;
+	background: linear-gradient(lavender, #1E90FF);
+	border: 2px solid #1364b2;
+	color: #12599e;
 	font-size : 15pt;
 	padding: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
 	opacity: 0.9;
 }
 #dream_button:hover {
-	background: linear-gradient(lavender, lightblue);
-	border: 1px solid dodgerblue;
+	background: linear-gradient(lavender, #1E90FF);
+	border: 1px solid #1364b2;
 	opacity: 1;
 }
 
