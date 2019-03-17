@@ -11,17 +11,16 @@
 	overflow: hidden;
 	padding:0px;
 }
-/*
-#work_vid, #model_vid, #cont_vid, #all_vid{
+
+#all_vid{
 	width: 640px;
 	height: 360px;
 	position: absolute;
-	top: 20%; left:-8%;
+	top: 0%; left:0%;
 	padding:0px;
 	z-index:2;
-	transform: rotate3d(0,0,1,-90deg);
 }
-*/
+
 
 #buttons {
 	width: 640px;
@@ -39,12 +38,13 @@
 	z-index:-1;
 }
 
-#edu_vid, #work_vid, #model_vid, #cont_vid, #all_vid{
-	position:absolute;
-	top:0%;left:0%;
+#rec {
+	position: absolute;
+	top: 0%; left:11%;	
+	z-index:3;
 }
-	
-#edu_button, #work_button, #model_button, #cont_button, #all_button {
+
+#all_button {
 	background: none;
 	font-size: 12pt;
 	border: none;	
@@ -56,35 +56,6 @@
 	outline-style: none;
 	z-index:3;
 	transform: rotate3d(0,0,1,-90deg);
-}
-
-#edu_button {
-	color: darkgreen;
-	top: 19.5%; left:13.5%;
-	padding-bottom: 13px;
-}
-
-#work_button {
-	color: #aa00ff;
-	top: 63.5%; left:13%;
-	padding-bottom: 19px;
-}
-
-#model_button {
-	color: grey;
-	top: 19%; left:2.8%;
-	padding-left: 73px;
-	padding-bottom: 16px;
-}
-
-#cont_button {
-	color: grey;
-	top: 65.5%; left:3.8%;
-	padding-left: 73px;
-	padding-bottom: 6px;
-}
-
-#all_button {
 	color: #ff1aff;
 	top: 43%; left:-8%;
 	padding-left: 89px;
@@ -92,105 +63,6 @@
 	padding-bottom: 6px;
 }
 
-
-#name {
-	font-size:24pt;
-	position:absolute;
-	top:-1%; left:30%;
-	color: #51b8e1;
-}
-
-#uoft, #deg, #lang, #list, #gpa, #pos, #amd, #date, #email, #task{
-	position: absolute;
-	color: #51b8e1;
-	text-align: left;
-	font: 25px arial, sans-serif;
-	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-}
-
-/* 1. education */
-#uoft {
-	top: 13%; left:35%;
-	font-size:17pt;
-}
-#deg{
-	top: 25%;left:35%;
-	font-size:15pt;
-}
-#gpa{
-	color:black;
-	top: 38%; left:35%;
-	font-size:13.2pt;
-}
-#lang{
-	top: 43%; left:35%;
-	font-size:13pt;
-}
-#list{
-	top: 46%; left:37%;
-	font-size:13pt;
-}
-
-
-/* 2. work */
-#pos {
-	top: 13%; left:30%;
-	font-size:17pt;
-}
-#amd{
-	top: 22%;left:30%;
-	font-size:14.5pt;
-}
-#date{
-	top: 36%; left:30%;
-	font-size:10pt;
-	padding: 0px;
-	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-}
-#task{
-	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-	top: 43%; left:32%;
-	padding-right:30px;
-	font-size: 12pt;
-	
-}
-
-/* 3. model */
-#s1, #s2, #s3, #s4, #s5, #s6, #s7, #s8, #s9, #s10, #s11, #s12, #s13, #s14, #s15, #s16, #s17, #s18, #s19, #s20, #s21, #s22, #s23, #s24, #s25   {
-	text-align: right;
-	width: 70px;
-	height: 100px;
-	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
-}
-
-#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9, #b10, #b11, #b12, #b13, #b14, #b15, #b16, #b17, #b18, #b19, #b20, #b21, #b22, #b23, #b24, #b25   {
-	position: absolute;
-	top: 11%; left: 34%;
-	width: 397px;
-}
-
-#jarrett {
-	color: white;
-	font-size: 10pt;
-	position: absolute;
-	top:8%; left:70%;
-}
-#book {
-	color:gold;
-}
-
-#ciotti {
-	color: lightblue;
-	font-size: 10pt;
-	position: absolute;
-	top:95%; left:76%;
-}
-
-#model {
-	padding-top: 8%;
-	padding-left: 66%;
-	padding-right: 2%;
-}
 
 /* 4. contact */
 #call {
@@ -213,7 +85,12 @@
 	color: gold;
 }
 
+
 /* 5. all */
+# all {
+	z-index: 5;
+}
+
 #credit {
 	color: #51b8e1;
 	font-size: 10.1pt;
@@ -221,6 +98,7 @@
 	padding-top: 1%;
 	text-align: left;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;	
+	z-index: 500;
 }
 #head {
 	font-size: 13.4pt;
@@ -232,6 +110,7 @@
 }
 #mosh {
 	color:#51b8e1;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
 }
 #misc {
 	position: absolute;
@@ -241,7 +120,6 @@
 	text-align: left;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;	
 }
-
 
 
 #loading {
@@ -277,7 +155,7 @@
 
 #load_txt {
 	position:absolute;
-	top:37%; left:37%;
+	top:35%; left:37%;
 	color: #51b8e1;
 	font-size: 24pt;
 }
