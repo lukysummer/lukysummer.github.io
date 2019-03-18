@@ -528,6 +528,11 @@
 #dr {
 	font-size: 7pt;
 }
+#high {
+	color: DeepSkyBlue ;
+	font-weight: bold;
+	font-size: 28px;
+}
 
 
 #intro_button {
