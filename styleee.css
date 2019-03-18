@@ -371,17 +371,17 @@
 	position: absolute;
         top: 36%; left: 64%;
 	background: linear-gradient(lavenderblush, lightpink);
-	border: 1px solid firebrick;
-	color: firebrick;
-	font-size : 27pt;
-	padding-top: 0px; padding-bottom: 10px; padding-left: 7px; padding-right: 7px;
+	border: 1px solid #d14775;
+	color: #d14775;
+	font-size : 19pt;
+	padding: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
 	opacity: 0.9;
 }
 #shiloh_button:hover {
 	background: linear-gradient(lavenderblush, lightpink);
-	border: 2px solid firebrick;
-	color: firebrick;
+	border: 2px solid #d14775;
+	color: #d14775;
 	opacity: 1;
 }
 
@@ -389,34 +389,52 @@
 /* DARK BLUE */
 #moon_button {
 	position: absolute;
-        top: 61%; left: 38%;
+        top: 62%; left: 42%;
 	/*background: linear-gradient(black, midnightblue);*/
 	background: url(luna.png);
-	border: 1px solid gold;
-	color: gold;
+	border: 1px solid black;
 	font-size: 17pt;
-	padding-bottom: 40px;
-	padding-left: 12px;
-	padding-top: 4px;
-	padding-right: 20px;
+	padding-bottom: 42px;
+	padding-left: 14px;
+	padding-top: 6px;
+	padding-right: 21px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
 	opacity: 0.9;
 }
 #moon_button:hover {
-	background: linear-gradient(#07102c, #1a3fb2);
-	border: 2px solid gold;
+	border: 2px solid black;
+	opacity: 1;
+}
+
+
+#plane_button {
+	position:absolute;
+        top: 58%; left: 60%;
+	background: url(red_plane.png);
+	border: 1px solid darksalmon;
+	font-size: 17pt;
+	padding-bottom: 41px;
+	padding-left: 14px;
+	padding-top: 6px;
+	padding-right: 21px;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
+	opacity: 0.9;
+}
+#plane_button:hover {
+	border: 2px solid darksalmon;
+	color: #3b6363;
 	opacity: 1;
 }
 
 
 #dream_button {
 	position: absolute;
-        top: 48%; left: 42%;
+        top: 47%; left: 38%;
 	background: linear-gradient(lightblue, plum);
 	border: 1px solid #832f83;
 	color: #832f83;
-	font-size: 17pt;
-	padding: 7px;
+	font-size: 18pt;
+	padding: 8px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
 	opacity: 0.9;
 }
@@ -430,7 +448,7 @@
 
 #venice_button {
 	position: absolute;
-        top: 77%; left: 57%;
+        top: 75%; left: 54%;
 	background: linear-gradient(khaki, #9dd1e1);
 	border: 1px solid darkred;
 	color: darkred;
@@ -449,10 +467,10 @@
 
 #shiloh2_button {
 	position:absolute;
-        top: 50%; left: 75%;
-	background: linear-gradient(lavenderblush, lightpink);
-	border: 1px solid #d14775;
-	color: #d14775;
+        top: 54%; left: 74%;
+	background: linear-gradient(lavenderblush, salmon);
+	border: 1px solid firebrick;
+	color: firebrick;
 	font-size: 17pt;
 	padding: 7px;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;
@@ -460,27 +478,8 @@
 }
 #shiloh2_button:hover {
 	background: linear-gradient(lavenderblush, lightpink);
-	border: 2px solid #d14775;
-	color: #d14775;
-	opacity: 1;
-}
-
-
-#plane_button {
-	position:absolute;
-        top: 63%; left: 53%;
-	background: linear-gradient(wheat, darkgrey);
-	border: 1px solid #3b6363;
-	color: #3b6363;
-	font-size: 17pt;
-	padding: 7px;
-	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
-	opacity: 0.9;
-}
-#plane_button:hover {
-	background: linear-gradient(wheat, darkgrey);
-	border: 2px solid #3b6363;
-	color: #3b6363;
+	border: 2px solid firebrick;
+	color: firebrick;
 	opacity: 1;
 }
 
@@ -488,7 +487,7 @@
 #peng_button {
 	position:absolute;
         top: 73%;  left: 25%;
-	background: linear-gradient(lightgrey, grey);
+	background: linear-gradient(wheat, darkgrey);
 	border: 1px solid midnightblue;
 	color: midnightblue;
 	font-size: 17pt;
@@ -497,7 +496,7 @@
 	opacity: 0.9;
 }
 #peng_button:hover {
-	background: linear-gradient(lightgrey, grey);
+	background: linear-gradient(wheat, darkgrey);
 	border: 2px solid midnightblue;
 	color: midnightblue;
 	opacity: 1;
@@ -506,7 +505,7 @@
 
 #poem_button {
 	position:absolute;
-        top: 56%; left: 10%;
+        top: 57%; left: 11%;
 	background: linear-gradient(lightblue, #ffb199);
 	border: 1px solid #e73232;
 	color: #e73232;
@@ -541,7 +540,6 @@
 	font-style: bold;
 }
 #intro_button:hover {
-	background: linear-gradient(darkred, midnightblue);
 	color: gold;
 	border: 2px solid gold;
 }
@@ -558,7 +556,6 @@
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
 }
 #luky_button:hover {
-	background: linear-gradient(darkred, midnightblue);
 	color: gold;
 	border: 2px solid gold;
 }
