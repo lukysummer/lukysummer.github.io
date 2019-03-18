@@ -477,7 +477,7 @@
 	opacity: 0.9;
 }
 #shiloh2_button:hover {
-	background: linear-gradient(lavenderblush, lightpink);
+	background: linear-gradient(lavenderblush, salmon);
 	border: 2px solid firebrick;
 	color: firebrick;
 	opacity: 1;
@@ -552,15 +552,30 @@
 
 #luky_button {
 	position: absolute;
-        top: 88%;  left: 46.5%;
+        top: 87%;  left: 46.5%;
 	background: none;
 	border: 1px solid white;
 	color: white;
 	padding: 4px;
-	font-size: 14px ;
+	font-size: 13px ;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
 }
 #luky_button:hover {
+	color: gold;
+	border: 2px solid gold;
+}
+
+#contact_button {
+	position: absolute;
+        top: 93%;  left: 46.5%;
+	background: none;
+	border: 1px solid white;
+	color: white;
+	padding: 4px;
+	font-size: 13px ;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
+}
+#contact_button:hover {
 	color: gold;
 	border: 2px solid gold;
 }
