@@ -1,0 +1,29 @@
+
+ 
+
+<DOCTYPE! html>
+<html>
+<head>
+	<link rel = "stylesheet" href = "../lucrece.css">
+	<script src = "../lucrece.js"></script>
+</head>
+
+<body style="margin: 0;">
+	<style type="text/css"></style>	
+	<div id = "page">
+		
+		<div id="cont">
+			<img id = "call" src ="https://raw.githubusercontent.com/lukysummer/lukysummer.github.io/master/images/call.gif"></img>
+			<p id="email">
+				<br>Ｌｏｓｔ．．．？<br><br><br>
+				<span id = "luc">ｃｏｎｔａｃｔ　ｍｅ　ｆｏｒ　ａｎｙ　ｉｎｑｕｉｒｉｅｓ／ｑｕｅｓｔｉｏｎｓ／ｃｏｍｍｅｎｔｓ　＾◡＾：<br><br>
+				ｌｕｃｒｅｃｅ.ｓｈｉｎ＠ｕｔｏｒｏｎｔｏ.ｃａ<br><br>
+				1. About me
+        How I grew up:
+			</p>
+		</div>
+	</div>
+		 
+	
+</body>
+</html>
