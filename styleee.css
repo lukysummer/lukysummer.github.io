@@ -580,7 +580,7 @@
 	border: 2px solid skyblue;
 }
 
-#luky_button {
+#luc_button {
 	position: absolute;
         top: 88%;  left: 22.5%;
 	background: none;
@@ -590,7 +590,7 @@
 	font-size: 13px ;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=104563), auto;	
 }
-#luky_button:hover {
+#luc_button:hover {
 	color: skyblue;
 	border: 2px solid skyblue;
 }
